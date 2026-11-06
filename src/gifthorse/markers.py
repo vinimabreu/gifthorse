@@ -49,7 +49,10 @@ _REQUIREMENT = re.compile(
 
 
 def _text(data: bytes) -> str:
-    return data[:_TEXT_LIMIT].decode("utf-8", errors="replace")
+    # A file saved on Windows ends its lines with CRLF, and a git checkout on
+    # Windows writes them that way; the line-anchored patterns expect LF.
+    text = data[:_TEXT_LIMIT].decode("utf-8", errors="replace")
+    return text.replace("\r\n", "\n").replace("\r", "\n")
 
 
 def _json_has(data: bytes, keys: tuple[str, ...]) -> bool:

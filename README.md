@@ -3,7 +3,7 @@
 [![ci](https://github.com/vinimabreu/gifthorse/actions/workflows/ci.yml/badge.svg)](https://github.com/vinimabreu/gifthorse/actions/workflows/ci.yml)
 ![python](https://img.shields.io/badge/python-3.11%20%7C%203.12%20%7C%203.13%20%7C%203.14-blue)
 ![license](https://img.shields.io/badge/license-MIT-green)
-![tests](https://img.shields.io/badge/tests-375%20passing-brightgreen)
+![tests](https://img.shields.io/badge/tests-376%20passing-brightgreen)
 ![typing](https://img.shields.io/badge/typing-strict-informational)
 
 **Look a gift in the mouth before you let it in.**

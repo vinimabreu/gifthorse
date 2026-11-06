@@ -204,6 +204,11 @@ rather than patched:
   decoding marked text means the file was not read as text, so it gets no
   shelter from a project.
 
+After the first CI run on Windows: a manifest saved with Windows line endings
+(CRLF), which a git checkout on Windows writes, did not confirm a project, so
+the Python files of a Windows checkout came back BLOCK. Marker text is now read
+with its line endings normalized; the benchmark result did not change.
+
 Measured after the third review: the 218 benchmark packages come back 169 NO
 FINDINGS, 49 REVIEW and 0 BLOCK (176, 42, 0 before the first review; 174, 44, 0
 after it; 173, 45, 0 after the second). No package is a BLOCK. The REVIEW

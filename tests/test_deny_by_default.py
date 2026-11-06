@@ -54,6 +54,21 @@ def test_a_pyproject_without_a_section_is_not_a_manifest() -> None:
     assert gh101(scan_bytes("proj.zip", real)) == ""
 
 
+def test_a_manifest_saved_with_windows_line_endings_still_confirms() -> None:
+    for pyproject in (b"[project]\r\nname = 'x'\r\n", b"[project]\rname = 'x'\r"):
+        data = b.make_zip({"pyproject.toml": pyproject, "scan.png": b.PNG, "start.bat": ECHO_BAT})
+        assert gh101(scan_bytes("proj.zip", data)) == ""
+    crlf_folder = b.make_zip(
+        {
+            "proj/pyproject.toml": b"[build-system]\r\nrequires = ['hatchling']\r\n",
+            "proj/README.md": b"# proj\r\n",
+            "proj/docs/shot.png": b.PNG,
+            "proj/src/proj/__init__.py": b"VALUE = 1\r\n",
+        }
+    )
+    assert scan_bytes("proj.zip", crlf_folder).verdict is Verdict.NO_FINDINGS
+
+
 def test_a_git_head_and_config_do_not_make_a_project() -> None:
     data = b.make_zip(
         {
