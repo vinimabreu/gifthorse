@@ -1,0 +1,1962 @@
+{
+  "packages": 218,
+  "missing": 0,
+  "verdicts": {
+    "NO FINDINGS": 169,
+    "REVIEW": 49
+  },
+  "rule_hits": {
+    "GH101": 17,
+    "GH104": 5,
+    "GH105": 1,
+    "GH108": 3,
+    "GH109": 2,
+    "GH202": 3,
+    "GH401": 34,
+    "GH407": 5,
+    "GH503": 2,
+    "GH603": 1
+  },
+  "results": [
+    {
+      "ecosystem": "npm",
+      "name": "typescript",
+      "version": "7.0.2",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "eslint",
+      "version": "10.14.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "react",
+      "version": "19.3.1",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "mocha",
+      "version": "12.0.3",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@types/node",
+      "version": "26.6.6",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "jest",
+      "version": "30.5.2",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "prettier",
+      "version": "3.9.10",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "webpack",
+      "version": "5.112.2",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "react-dom",
+      "version": "19.3.1",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@babel/core",
+      "version": "8.1.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "babel-loader",
+      "version": "10.1.1",
+      "verdict": "REVIEW",
+      "findings": [
+        {
+          "rule": "GH401",
+          "severity": "review",
+          "path": "!/package/package.json"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "eslint-plugin-import",
+      "version": "2.32.0",
+      "verdict": "REVIEW",
+      "findings": [
+        {
+          "rule": "GH401",
+          "severity": "review",
+          "path": "!/package/package.json"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "rimraf",
+      "version": "6.1.4",
+      "verdict": "REVIEW",
+      "findings": [
+        {
+          "rule": "GH401",
+          "severity": "review",
+          "path": "!/package/package.json"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "chai",
+      "version": "6.3.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@types/jest",
+      "version": "30.0.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lodash",
+      "version": "4.18.1",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@babel/preset-env",
+      "version": "8.0.7",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "babel-eslint",
+      "version": "10.1.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "babel-core",
+      "version": "6.26.3",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "husky",
+      "version": "9.1.7",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "rollup",
+      "version": "4.67.5",
+      "verdict": "REVIEW",
+      "findings": [
+        {
+          "rule": "GH401",
+          "severity": "review",
+          "path": "!/package/package.json"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "chalk",
+      "version": "6.0.1",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@typescript-eslint/eslint-plugin",
+      "version": "8.72.1",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@typescript-eslint/parser",
+      "version": "8.72.1",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "tslib",
+      "version": "2.9.1",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "ts-node",
+      "version": "10.9.2",
+      "verdict": "REVIEW",
+      "findings": [
+        {
+          "rule": "GH401",
+          "severity": "review",
+          "path": "!/package/package.json"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "eslint-config-prettier",
+      "version": "10.1.8",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "webpack-cli",
+      "version": "7.3.1",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@types/react",
+      "version": "19.3.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "ts-jest",
+      "version": "29.4.15",
+      "verdict": "REVIEW",
+      "findings": [
+        {
+          "rule": "GH401",
+          "severity": "review",
+          "path": "!/package/package.json"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "css-loader",
+      "version": "7.1.5",
+      "verdict": "REVIEW",
+      "findings": [
+        {
+          "rule": "GH401",
+          "severity": "review",
+          "path": "!/package/package.json"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "eslint-plugin-react",
+      "version": "7.37.5",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "eslint-plugin-prettier",
+      "version": "5.5.7",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "cross-env",
+      "version": "10.1.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "babel-cli",
+      "version": "6.26.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "axios",
+      "version": "1.21.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "vue",
+      "version": "3.5.45",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "express",
+      "version": "5.3.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "babel-preset-es2015",
+      "version": "6.24.1",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "autoprefixer",
+      "version": "10.6.2",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "webpack-dev-server",
+      "version": "6.1.0",
+      "verdict": "REVIEW",
+      "findings": [
+        {
+          "rule": "GH401",
+          "severity": "review",
+          "path": "!/package/package.json"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "babel-preset-env",
+      "version": "1.7.0",
+      "verdict": "REVIEW",
+      "findings": [
+        {
+          "rule": "GH401",
+          "severity": "review",
+          "path": "!/package/package.json"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "style-loader",
+      "version": "4.0.0",
+      "verdict": "REVIEW",
+      "findings": [
+        {
+          "rule": "GH401",
+          "severity": "review",
+          "path": "!/package/package.json"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "tslint",
+      "version": "6.1.3",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@babel/cli",
+      "version": "8.1.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "lint-staged",
+      "version": "17.6.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "gulp",
+      "version": "5.0.1",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "sass-loader",
+      "version": "17.1.0",
+      "verdict": "REVIEW",
+      "findings": [
+        {
+          "rule": "GH401",
+          "severity": "review",
+          "path": "!/package/package.json"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "node-sass",
+      "version": "9.0.0",
+      "verdict": "REVIEW",
+      "findings": [
+        {
+          "rule": "GH401",
+          "severity": "review",
+          "path": "!/package/package.json"
+        },
+        {
+          "rule": "GH401",
+          "severity": "review",
+          "path": "!/package/package.json"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "commander",
+      "version": "15.0.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "fs-extra",
+      "version": "11.4.1",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "sinon",
+      "version": "22.1.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "vue-template-compiler",
+      "version": "2.7.16",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@types/react-dom",
+      "version": "19.3.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "core-js",
+      "version": "3.51.0",
+      "verdict": "REVIEW",
+      "findings": [
+        {
+          "rule": "GH401",
+          "severity": "review",
+          "path": "!/package/package.json"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "babel-jest",
+      "version": "30.5.2",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@babel/preset-react",
+      "version": "8.0.1",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "html-webpack-plugin",
+      "version": "5.6.8",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@rollup/plugin-node-resolve",
+      "version": "16.0.3",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "nyc",
+      "version": "18.0.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "file-loader",
+      "version": "6.2.0",
+      "verdict": "REVIEW",
+      "findings": [
+        {
+          "rule": "GH401",
+          "severity": "review",
+          "path": "!/package/package.json"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "eslint-plugin-promise",
+      "version": "7.3.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "prop-types",
+      "version": "15.8.1",
+      "verdict": "REVIEW",
+      "findings": [
+        {
+          "rule": "GH401",
+          "severity": "review",
+          "path": "!/package/package.json"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "eslint-plugin-node",
+      "version": "11.1.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "request",
+      "version": "2.88.2",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "eslint-plugin-jsx-a11y",
+      "version": "6.10.2",
+      "verdict": "REVIEW",
+      "findings": [
+        {
+          "rule": "GH401",
+          "severity": "review",
+          "path": "!/package/package.json"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@rollup/plugin-commonjs",
+      "version": "29.0.3",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "moment",
+      "version": "2.31.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "coveralls",
+      "version": "3.1.1",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "npm-run-all",
+      "version": "4.1.5",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "karma",
+      "version": "6.4.4",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "babel-preset-react",
+      "version": "6.24.1",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@types/mocha",
+      "version": "10.0.10",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "eslint-config-standard",
+      "version": "17.1.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "postcss-loader",
+      "version": "8.2.1",
+      "verdict": "REVIEW",
+      "findings": [
+        {
+          "rule": "GH401",
+          "severity": "review",
+          "path": "!/package/package.json"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "eslint-plugin-standard",
+      "version": "5.0.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "glob",
+      "version": "14.0.3",
+      "verdict": "REVIEW",
+      "findings": [
+        {
+          "rule": "GH401",
+          "severity": "review",
+          "path": "!/package/package.json"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "inquirer",
+      "version": "14.2.5",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@babel/plugin-proposal-class-properties",
+      "version": "7.18.6",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "eslint-plugin-vue",
+      "version": "10.12.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "url-loader",
+      "version": "4.1.1",
+      "verdict": "REVIEW",
+      "findings": [
+        {
+          "rule": "GH401",
+          "severity": "review",
+          "path": "!/package/package.json"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "debug",
+      "version": "4.4.3",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@babel/runtime",
+      "version": "8.1.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "ts-loader",
+      "version": "9.6.2",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "react-scripts",
+      "version": "5.0.1",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "rollup-plugin-node-resolve",
+      "version": "5.2.0",
+      "verdict": "REVIEW",
+      "findings": [
+        {
+          "rule": "GH401",
+          "severity": "review",
+          "path": "!/package/package.json"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "sass",
+      "version": "1.107.1",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "istanbul",
+      "version": "0.4.5",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "rollup-plugin-terser",
+      "version": "7.0.2",
+      "verdict": "REVIEW",
+      "findings": [
+        {
+          "rule": "GH401",
+          "severity": "review",
+          "path": "!/package/package.json"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "eslint-config-airbnb",
+      "version": "19.0.4",
+      "verdict": "REVIEW",
+      "findings": [
+        {
+          "rule": "GH401",
+          "severity": "review",
+          "path": "!/package/package.json"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "rollup-plugin-babel",
+      "version": "4.4.0",
+      "verdict": "REVIEW",
+      "findings": [
+        {
+          "rule": "GH401",
+          "severity": "review",
+          "path": "!/package/package.json"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@testing-library/react",
+      "version": "16.3.3",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "semver",
+      "version": "7.8.6",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "yargs",
+      "version": "18.2.0",
+      "verdict": "REVIEW",
+      "findings": [
+        {
+          "rule": "GH401",
+          "severity": "review",
+          "path": "!/package/package.json"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "dotenv",
+      "version": "18.0.9",
+      "verdict": "REVIEW",
+      "findings": [
+        {
+          "rule": "GH407",
+          "severity": "review",
+          "path": "!/package/README.md"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@babel/plugin-transform-runtime",
+      "version": "8.0.6",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "rxjs",
+      "version": "7.8.2",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@vue/cli-service",
+      "version": "5.0.9",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "uuid",
+      "version": "14.0.3",
+      "verdict": "REVIEW",
+      "findings": [
+        {
+          "rule": "GH401",
+          "severity": "review",
+          "path": "!/package/package.json"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "eslint-plugin-react-hooks",
+      "version": "7.1.1",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "esbuild",
+      "version": "0.28.2",
+      "verdict": "REVIEW",
+      "findings": [
+        {
+          "rule": "GH401",
+          "severity": "review",
+          "path": "!/package/package.json"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@swc/core",
+      "version": "1.16.22",
+      "verdict": "REVIEW",
+      "findings": [
+        {
+          "rule": "GH401",
+          "severity": "review",
+          "path": "!/package/package.json"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "sharp",
+      "version": "0.35.5",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "puppeteer",
+      "version": "25.16.0",
+      "verdict": "REVIEW",
+      "findings": [
+        {
+          "rule": "GH401",
+          "severity": "review",
+          "path": "!/package/package.json"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "playwright",
+      "version": "1.64.1",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "node-gyp",
+      "version": "13.1.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "bcrypt",
+      "version": "6.0.0",
+      "verdict": "REVIEW",
+      "findings": [
+        {
+          "rule": "GH401",
+          "severity": "review",
+          "path": "!/package/package.json"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "sqlite3",
+      "version": "6.0.1",
+      "verdict": "REVIEW",
+      "findings": [
+        {
+          "rule": "GH401",
+          "severity": "review",
+          "path": "!/package/package.json"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "electron",
+      "version": "45.2.3",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "prisma",
+      "version": "8.0.0-rc.30",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@prisma/client",
+      "version": "7.10.1",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "cypress",
+      "version": "16.2.1",
+      "verdict": "REVIEW",
+      "findings": [
+        {
+          "rule": "GH401",
+          "severity": "review",
+          "path": "!/package/package.json"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "nodemon",
+      "version": "3.1.14",
+      "verdict": "REVIEW",
+      "findings": [
+        {
+          "rule": "GH101",
+          "severity": "review",
+          "path": "!/package/bin/windows-kill.exe"
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "next",
+      "version": "16.4.5",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "vite",
+      "version": "8.3.6",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "tailwindcss",
+      "version": "4.3.4",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "postcss",
+      "version": "8.5.32",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "nx",
+      "version": "24.0.4",
+      "verdict": "REVIEW",
+      "findings": [
+        {
+          "rule": "GH401",
+          "severity": "review",
+          "path": "!/package/package.json"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "boto3",
+      "version": "1.43.124",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "packaging",
+      "version": "26.3",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "typing-extensions",
+      "version": "4.16.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "certifi",
+      "version": "2026.10.23",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "idna",
+      "version": "3.20",
+      "verdict": "REVIEW",
+      "findings": [
+        {
+          "rule": "GH603",
+          "severity": "review",
+          "path": "!/idna-3.20/tests/test_idna_uts46.py"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "urllib3",
+      "version": "2.8.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "charset-normalizer",
+      "version": "3.5.2",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "requests",
+      "version": "2.34.2",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "cryptography",
+      "version": "50.0.2",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "cffi",
+      "version": "2.1.1",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pluggy",
+      "version": "1.7.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pyyaml",
+      "version": "6.0.3",
+      "verdict": "REVIEW",
+      "findings": [
+        {
+          "rule": "GH109",
+          "severity": "review",
+          "path": "!/pyyaml-6.0.3/packaging/__pycache__"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pycparser",
+      "version": "3.12",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pygments",
+      "version": "2.21.0",
+      "verdict": "REVIEW",
+      "findings": [
+        {
+          "rule": "GH101",
+          "severity": "review",
+          "path": "!/pygments-2.21.0/tests/examplefiles/registry/example.reg"
+        },
+        {
+          "rule": "GH101",
+          "severity": "review",
+          "path": "!/pygments-2.21.0/tests/examplefiles/vbscript/example.vbs"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "python-dateutil",
+      "version": "4.0.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "six",
+      "version": "1.17.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "setuptools",
+      "version": "84.2.1",
+      "verdict": "REVIEW",
+      "findings": [
+        {
+          "rule": "GH101",
+          "severity": "review",
+          "path": "!/setuptools-84.2.1/setuptools/cli-32.exe"
+        },
+        {
+          "rule": "GH101",
+          "severity": "review",
+          "path": "!/setuptools-84.2.1/setuptools/cli-64.exe"
+        },
+        {
+          "rule": "GH101",
+          "severity": "review",
+          "path": "!/setuptools-84.2.1/setuptools/cli-arm64.exe"
+        },
+        {
+          "rule": "GH101",
+          "severity": "review",
+          "path": "!/setuptools-84.2.1/setuptools/cli.exe"
+        },
+        {
+          "rule": "GH101",
+          "severity": "review",
+          "path": "!/setuptools-84.2.1/setuptools/gui-32.exe"
+        },
+        {
+          "rule": "GH101",
+          "severity": "review",
+          "path": "!/setuptools-84.2.1/setuptools/gui-64.exe"
+        },
+        {
+          "rule": "GH101",
+          "severity": "review",
+          "path": "!/setuptools-84.2.1/setuptools/gui-arm64.exe"
+        },
+        {
+          "rule": "GH101",
+          "severity": "review",
+          "path": "!/setuptools-84.2.1/setuptools/gui.exe"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pydantic",
+      "version": "2.14.3",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pydantic-core",
+      "version": "2.50.4",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "click",
+      "version": "8.5.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "numpy",
+      "version": "2.5.4",
+      "verdict": "REVIEW",
+      "findings": [
+        {
+          "rule": "GH503",
+          "severity": "review",
+          "path": "!/numpy-2.5.4/.devcontainer/devcontainer.json"
+        },
+        {
+          "rule": "GH407",
+          "severity": "review",
+          "path": "!/numpy-2.5.4/vendored-meson/meson/ci/ciimage/opensuse/install.sh"
+        },
+        {
+          "rule": "GH407",
+          "severity": "review",
+          "path": "!/numpy-2.5.4/vendored-meson/meson/ci/ciimage/ubuntu-rolling/install.sh"
+        },
+        {
+          "rule": "GH202",
+          "severity": "review",
+          "path": "!/numpy-2.5.4/vendored-meson/meson/ci/intel-scripts/install_windows.bat"
+        },
+        {
+          "rule": "GH202",
+          "severity": "review",
+          "path": "!/numpy-2.5.4/vendored-meson/meson/ci/run.ps1"
+        },
+        {
+          "rule": "GH105",
+          "severity": "review",
+          "path": "!/numpy-2.5.4/vendored-meson/meson/manual tests/4 standalone binaries/template.dmg.gz!/template.dmg"
+        },
+        {
+          "rule": "GH104",
+          "severity": "review",
+          "path": "!/numpy-2.5.4/vendored-meson/meson/test cases/common/153 wrap file should not failed/subprojects/packagecache/zlib-1.2.8-8-wrap.zip"
+        },
+        {
+          "rule": "GH104",
+          "severity": "review",
+          "path": "!/numpy-2.5.4/vendored-meson/meson/test cases/common/153 wrap file should not failed/subprojects/packagecache/zlib-1.2.8.tar.gz"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "botocore",
+      "version": "1.43.124",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "anyio",
+      "version": "4.16.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "annotated-types",
+      "version": "0.8.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pytest",
+      "version": "9.2.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "iniconfig",
+      "version": "2.3.1",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "typing-inspection",
+      "version": "0.4.5",
+      "verdict": "REVIEW",
+      "findings": [
+        {
+          "rule": "GH407",
+          "severity": "review",
+          "path": "!/typing_inspection-0.4.5/build-docs.sh"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "h11",
+      "version": "0.16.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "attrs",
+      "version": "26.1.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "markupsafe",
+      "version": "3.0.4",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "httpx",
+      "version": "0.28.1",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "httpcore",
+      "version": "1.0.9",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "s3transfer",
+      "version": "0.19.3",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "protobuf",
+      "version": "7.36.2",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "python-dotenv",
+      "version": "1.2.4",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pyjwt",
+      "version": "2.15.1",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "jinja2",
+      "version": "3.1.6",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pandas",
+      "version": "3.1.1",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "aiobotocore",
+      "version": "3.10.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "starlette",
+      "version": "1.10.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "opentelemetry-api",
+      "version": "1.45.2",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "platformdirs",
+      "version": "4.14.5",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pillow",
+      "version": "13.0.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "uvicorn",
+      "version": "0.54.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pathspec",
+      "version": "1.1.1",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "rpds-py",
+      "version": "2026.9.1",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "fsspec",
+      "version": "2026.9.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "jsonschema",
+      "version": "4.26.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "filelock",
+      "version": "4.2.9",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "jmespath",
+      "version": "1.1.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "tzdata",
+      "version": "2026.6",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "referencing",
+      "version": "0.37.0",
+      "verdict": "REVIEW",
+      "findings": [
+        {
+          "rule": "GH104",
+          "severity": "review",
+          "path": "!/referencing-0.37.0/CHANGELOG.rst"
+        },
+        {
+          "rule": "GH108",
+          "severity": "review",
+          "path": "!/referencing-0.37.0/suite/.git"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "tomlkit",
+      "version": "0.15.2",
+      "verdict": "REVIEW",
+      "findings": [
+        {
+          "rule": "GH108",
+          "severity": "review",
+          "path": "!/tomlkit-0.15.2/tests/toml-test/.git"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "jsonschema-specifications",
+      "version": "2025.9.1",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "multidict",
+      "version": "7.2.1",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "markdown-it-py",
+      "version": "4.2.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "rich",
+      "version": "15.0.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "aiohttp",
+      "version": "3.14.5",
+      "verdict": "REVIEW",
+      "findings": [
+        {
+          "rule": "GH108",
+          "severity": "review",
+          "path": "!/aiohttp-3.14.5/vendor/llhttp/.git"
+        },
+        {
+          "rule": "GH401",
+          "severity": "review",
+          "path": "!/aiohttp-3.14.5/vendor/llhttp/package.json"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "yarl",
+      "version": "1.25.1",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "mdurl",
+      "version": "0.1.2",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "propcache",
+      "version": "0.5.4",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pip",
+      "version": "26.3",
+      "verdict": "REVIEW",
+      "findings": [
+        {
+          "rule": "GH101",
+          "severity": "review",
+          "path": "!/pip-26.3/src/pip/_vendor/distlib/t32.exe"
+        },
+        {
+          "rule": "GH101",
+          "severity": "review",
+          "path": "!/pip-26.3/src/pip/_vendor/distlib/t64-arm.exe"
+        },
+        {
+          "rule": "GH101",
+          "severity": "review",
+          "path": "!/pip-26.3/src/pip/_vendor/distlib/t64.exe"
+        },
+        {
+          "rule": "GH101",
+          "severity": "review",
+          "path": "!/pip-26.3/src/pip/_vendor/distlib/w32.exe"
+        },
+        {
+          "rule": "GH101",
+          "severity": "review",
+          "path": "!/pip-26.3/src/pip/_vendor/distlib/w64-arm.exe"
+        },
+        {
+          "rule": "GH101",
+          "severity": "review",
+          "path": "!/pip-26.3/src/pip/_vendor/distlib/w64.exe"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "annotated-doc",
+      "version": "0.0.5",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "websockets",
+      "version": "17.4",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "fastapi",
+      "version": "0.162.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "googleapis-common-protos",
+      "version": "1.76.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pytz",
+      "version": "2026.6",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "frozenlist",
+      "version": "1.8.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "tqdm",
+      "version": "4.70.1",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pyasn1",
+      "version": "0.6.5",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "aiosignal",
+      "version": "1.4.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "aiohappyeyeballs",
+      "version": "2.7.1",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "sniffio",
+      "version": "1.3.1",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pydantic-settings",
+      "version": "2.16.2",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "wrapt",
+      "version": "2.5.2",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "python-multipart",
+      "version": "0.0.33",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "google-auth",
+      "version": "2.62.1",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pyarrow",
+      "version": "26.0.1",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "trove-classifiers",
+      "version": "2026.9.21.13",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "zipp",
+      "version": "4.1.2",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "lxml",
+      "version": "6.1.3",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "tenacity",
+      "version": "9.2.1",
+      "verdict": "REVIEW",
+      "findings": [
+        {
+          "rule": "GH104",
+          "severity": "review",
+          "path": "!/tenacity-9.2.1/README.rst"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "importlib-metadata",
+      "version": "10.1.0",
+      "verdict": "REVIEW",
+      "findings": [
+        {
+          "rule": "GH109",
+          "severity": "review",
+          "path": "!/importlib_metadata-10.1.0/tests/data/example-21.12-py3.6.egg!/example/__pycache__"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pyasn1-modules",
+      "version": "0.4.2",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "ruff",
+      "version": "0.17.3",
+      "verdict": "REVIEW",
+      "findings": [
+        {
+          "rule": "GH407",
+          "severity": "review",
+          "path": "!/ruff-0.17.3/README.md"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "sqlalchemy",
+      "version": "2.1.8",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "jiter",
+      "version": "0.18.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "greenlet",
+      "version": "3.5.6",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "hatchling",
+      "version": "1.33.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "wheel",
+      "version": "0.48.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "pyparsing",
+      "version": "3.3.3",
+      "verdict": "REVIEW",
+      "findings": [
+        {
+          "rule": "GH104",
+          "severity": "review",
+          "path": "!/pyparsing-3.3.3/docs/CONTRIBUTING.md"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "grpcio",
+      "version": "1.85.1",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "regex",
+      "version": "2026.9.29",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "truststore",
+      "version": "0.10.5",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "scipy",
+      "version": "1.18.1",
+      "verdict": "REVIEW",
+      "findings": [
+        {
+          "rule": "GH503",
+          "severity": "review",
+          "path": "!/scipy-1.18.1/.devcontainer/devcontainer.json"
+        },
+        {
+          "rule": "GH202",
+          "severity": "review",
+          "path": "!/scipy-1.18.1/tools/install_intel_oneAPI_windows.bat"
+        }
+      ]
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "grpcio-status",
+      "version": "1.85.1",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "openai",
+      "version": "3.46.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "httpx2",
+      "version": "2.16.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "watchfiles",
+      "version": "1.3.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    },
+    {
+      "ecosystem": "pypi",
+      "name": "httpcore2",
+      "version": "2.16.0",
+      "verdict": "NO FINDINGS",
+      "findings": []
+    }
+  ]
+}

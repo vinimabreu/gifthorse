@@ -1,0 +1,1528 @@
+[
+  {
+    "ecosystem": "npm",
+    "name": "typescript",
+    "version": "7.0.2",
+    "url": "https://registry.npmjs.org/typescript/-/typescript-7.0.2.tgz",
+    "sha256": "da2513f4b95176d6dde8b51aab7afe8a927656c9d277369793f77f7e59371c08"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "eslint",
+    "version": "10.14.0",
+    "url": "https://registry.npmjs.org/eslint/-/eslint-10.14.0.tgz",
+    "sha256": "e15ffa02262a7d359f9385e2d468f289dd309715261b2e3aa276ccd26ed14720"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": "19.3.1",
+    "url": "https://registry.npmjs.org/react/-/react-19.3.1.tgz",
+    "sha256": "56936913918dcf1f7a6fe58784e79df54b18200a88655ce809cf5e9c4ef871aa"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "mocha",
+    "version": "12.0.3",
+    "url": "https://registry.npmjs.org/mocha/-/mocha-12.0.3.tgz",
+    "sha256": "3a93ba09b4b5f591a947ef5226ca9ae76220b124fe610dbcd5b76eb320512919"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "@types/node",
+    "version": "26.6.6",
+    "url": "https://registry.npmjs.org/@types/node/-/node-26.6.6.tgz",
+    "sha256": "7ef006842f7a647868e9d53588148cb058008b107aea6a728143730bee020456"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "jest",
+    "version": "30.5.2",
+    "url": "https://registry.npmjs.org/jest/-/jest-30.5.2.tgz",
+    "sha256": "aa278879dd8634e13f3392d28a0e1310d87117bcb5a0c59beea7a530be24dd8c"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "prettier",
+    "version": "3.9.10",
+    "url": "https://registry.npmjs.org/prettier/-/prettier-3.9.10.tgz",
+    "sha256": "9dc72045591793dff972432fb78722f7ab91aaa90a7fa8c1261ede55969246b7"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "webpack",
+    "version": "5.112.2",
+    "url": "https://registry.npmjs.org/webpack/-/webpack-5.112.2.tgz",
+    "sha256": "fb618a5eba0f16fa43ed720cc4634df4e88c65d594c0e0ad2c5c0c9be4057dfe"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "react-dom",
+    "version": "19.3.1",
+    "url": "https://registry.npmjs.org/react-dom/-/react-dom-19.3.1.tgz",
+    "sha256": "8b49975821eec6311e00d2b3f4b8337923253c876517388a33f9839c61ab262e"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "@babel/core",
+    "version": "8.1.0",
+    "url": "https://registry.npmjs.org/@babel/core/-/core-8.1.0.tgz",
+    "sha256": "2b63d6499e3b2f50a392517a26af873e7ae37847e58fcbaf59b2c40f8cedaab9"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "babel-loader",
+    "version": "10.1.1",
+    "url": "https://registry.npmjs.org/babel-loader/-/babel-loader-10.1.1.tgz",
+    "sha256": "b977c19c1c1f66e7430f4de84382a87a4fbd2305d8b047d31a4a58c86a0e76fc"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "eslint-plugin-import",
+    "version": "2.32.0",
+    "url": "https://registry.npmjs.org/eslint-plugin-import/-/eslint-plugin-import-2.32.0.tgz",
+    "sha256": "4c122b593c52e40f3167a89b388d0b9a155aaddc08f05935ccece7b4ff51ecde"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "rimraf",
+    "version": "6.1.4",
+    "url": "https://registry.npmjs.org/rimraf/-/rimraf-6.1.4.tgz",
+    "sha256": "a0d85772811c6ff771df415784de534ff2c2ed310b90a075ad1061c48a5bd381"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "chai",
+    "version": "6.3.0",
+    "url": "https://registry.npmjs.org/chai/-/chai-6.3.0.tgz",
+    "sha256": "ef5457b2ab9e011093f47f104fecc94e5b36ce729fdba6fbc8b0ce316c2e8f60"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "@types/jest",
+    "version": "30.0.0",
+    "url": "https://registry.npmjs.org/@types/jest/-/jest-30.0.0.tgz",
+    "sha256": "09a03abb94c276684a5609ff2226066633f46894c2e1500fd5ac8195e99ec53a"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "lodash",
+    "version": "4.18.1",
+    "url": "https://registry.npmjs.org/lodash/-/lodash-4.18.1.tgz",
+    "sha256": "696942c2a488c9d7428e9ca5f12ccf03b52de01dcdbfe4d4751d392f0491ae16"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "@babel/preset-env",
+    "version": "8.0.7",
+    "url": "https://registry.npmjs.org/@babel/preset-env/-/preset-env-8.0.7.tgz",
+    "sha256": "6b2df9e026dac2f7684475a160060da5f81f65be11f228e0ed283c1dd071dd83"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "babel-eslint",
+    "version": "10.1.0",
+    "url": "https://registry.npmjs.org/babel-eslint/-/babel-eslint-10.1.0.tgz",
+    "sha256": "f566d1c468eac9662e050012767e6c86acb9f9d1d6845dd6b2d5331f60908a00"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "babel-core",
+    "version": "6.26.3",
+    "url": "https://registry.npmjs.org/babel-core/-/babel-core-6.26.3.tgz",
+    "sha256": "9c47b182a780f399fa0e1ce666044db5b8bb4715fbe07ab4e1b3cd0b1d043588"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "husky",
+    "version": "9.1.7",
+    "url": "https://registry.npmjs.org/husky/-/husky-9.1.7.tgz",
+    "sha256": "720e354eba8b12afd32ac5844499753375916a721ee47ea7194e9b32ed44fe0c"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "rollup",
+    "version": "4.67.5",
+    "url": "https://registry.npmjs.org/rollup/-/rollup-4.67.5.tgz",
+    "sha256": "c0af59e02f577c16227a06af8ae968f98b5a994105ca6b67fffd42bd6c6a5e34"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "chalk",
+    "version": "6.0.1",
+    "url": "https://registry.npmjs.org/chalk/-/chalk-6.0.1.tgz",
+    "sha256": "22a5b05d62a304c950f24dedb466ea07fb4b458e58bb37b2fe2c69ed2c9ba6c3"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "@typescript-eslint/eslint-plugin",
+    "version": "8.72.1",
+    "url": "https://registry.npmjs.org/@typescript-eslint/eslint-plugin/-/eslint-plugin-8.72.1.tgz",
+    "sha256": "9d331a57fd330b5248fa08a77589754d66ddb52f8fda8ac6e06cbef08dc82c73"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "@typescript-eslint/parser",
+    "version": "8.72.1",
+    "url": "https://registry.npmjs.org/@typescript-eslint/parser/-/parser-8.72.1.tgz",
+    "sha256": "4a79e42b336910443769dca9128978181dc11d69cab985fd6538a05e7ee1fab1"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "tslib",
+    "version": "2.9.1",
+    "url": "https://registry.npmjs.org/tslib/-/tslib-2.9.1.tgz",
+    "sha256": "8092ae46b512c361b086443cc1b6ae94bfe2587b75034663e4b89d24ba40670a"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "ts-node",
+    "version": "10.9.2",
+    "url": "https://registry.npmjs.org/ts-node/-/ts-node-10.9.2.tgz",
+    "sha256": "0290b8a665925d581da75499425c7156b1f433619af62b0ea51d159c18dff968"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "eslint-config-prettier",
+    "version": "10.1.8",
+    "url": "https://registry.npmjs.org/eslint-config-prettier/-/eslint-config-prettier-10.1.8.tgz",
+    "sha256": "de290c23fe9e565adf2dfceb5929e98668d6570b7c25b8c5fe1af0fc401ebd8e"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "webpack-cli",
+    "version": "7.3.1",
+    "url": "https://registry.npmjs.org/webpack-cli/-/webpack-cli-7.3.1.tgz",
+    "sha256": "833aab597a1f8748bd943a961763fe4a5640c7efa6c6e5c0e88a497db90c42dd"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "@types/react",
+    "version": "19.3.0",
+    "url": "https://registry.npmjs.org/@types/react/-/react-19.3.0.tgz",
+    "sha256": "ffa77ffdbdc82e5f67a0fd74d750990375a7dfd8685ec7f10a27c0db128f7766"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "ts-jest",
+    "version": "29.4.15",
+    "url": "https://registry.npmjs.org/ts-jest/-/ts-jest-29.4.15.tgz",
+    "sha256": "656f5d9c108f0330c050bd0cd8de7fd88d394b6e1c889042be703c355877f8ce"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "css-loader",
+    "version": "7.1.5",
+    "url": "https://registry.npmjs.org/css-loader/-/css-loader-7.1.5.tgz",
+    "sha256": "f35d4683874821d4aee8b795d9a5bb5a2b30a25e9962708e99a993983c252171"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "eslint-plugin-react",
+    "version": "7.37.5",
+    "url": "https://registry.npmjs.org/eslint-plugin-react/-/eslint-plugin-react-7.37.5.tgz",
+    "sha256": "45cc9f87030c2d56bf53b5db62367d3cde946cd63e6dde865d66a6b21051ba0b"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "eslint-plugin-prettier",
+    "version": "5.5.7",
+    "url": "https://registry.npmjs.org/eslint-plugin-prettier/-/eslint-plugin-prettier-5.5.7.tgz",
+    "sha256": "16d04de0088e17946fa2faaf4bbf4e893d15c2bc2d5b6353f026a0b4e2da5855"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "cross-env",
+    "version": "10.1.0",
+    "url": "https://registry.npmjs.org/cross-env/-/cross-env-10.1.0.tgz",
+    "sha256": "f6fa0919bb0deb7d4f1727d7f8b7c402f7dc9fd387af732bdd602d76897a90d8"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "babel-cli",
+    "version": "6.26.0",
+    "url": "https://registry.npmjs.org/babel-cli/-/babel-cli-6.26.0.tgz",
+    "sha256": "81ac501721ff18200581c58542fa6226986766c53be35ad8f921fabd47834d02"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "axios",
+    "version": "1.21.0",
+    "url": "https://registry.npmjs.org/axios/-/axios-1.21.0.tgz",
+    "sha256": "3d34c8aee6495b566848b8fcfc1a70daa2921a6d9626961f6379bba29b296e8a"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "vue",
+    "version": "3.5.45",
+    "url": "https://registry.npmjs.org/vue/-/vue-3.5.45.tgz",
+    "sha256": "c2ec36a9b719e4277785f1ad36a1bb0424d8d32f0bea24abcce862e26821d585"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "express",
+    "version": "5.3.0",
+    "url": "https://registry.npmjs.org/express/-/express-5.3.0.tgz",
+    "sha256": "62450d99e36dc393295f1ddd93cb9291e658c169f3b700b0110c1ae8fa799930"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "babel-preset-es2015",
+    "version": "6.24.1",
+    "url": "https://registry.npmjs.org/babel-preset-es2015/-/babel-preset-es2015-6.24.1.tgz",
+    "sha256": "89abd630f618a53a9608c5b3e4a5d7ce2deeb68e925bb027160b8cdd7cf104f4"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "autoprefixer",
+    "version": "10.6.2",
+    "url": "https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.6.2.tgz",
+    "sha256": "bcfdd43aebea49fc5af69745530286e78e35f350665e87f53db9fc566ee50a3e"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "webpack-dev-server",
+    "version": "6.1.0",
+    "url": "https://registry.npmjs.org/webpack-dev-server/-/webpack-dev-server-6.1.0.tgz",
+    "sha256": "2b8a0fc6431c084e208a21eeaf6fde73fb93edd53c4e122ed35b467e9bef213e"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "babel-preset-env",
+    "version": "1.7.0",
+    "url": "https://registry.npmjs.org/babel-preset-env/-/babel-preset-env-1.7.0.tgz",
+    "sha256": "225b90f04b175ce2b8d96db515947f37193838d041fd9bc50b9059458623f547"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "style-loader",
+    "version": "4.0.0",
+    "url": "https://registry.npmjs.org/style-loader/-/style-loader-4.0.0.tgz",
+    "sha256": "444658a872c8ca16208543857b2425746414689cb9c947fede712b38f269fab8"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "tslint",
+    "version": "6.1.3",
+    "url": "https://registry.npmjs.org/tslint/-/tslint-6.1.3.tgz",
+    "sha256": "e35879c2f92e7dd865c55117bf0fbe3d5ad2c62142fddb7051696ebf8312db43"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "@babel/cli",
+    "version": "8.1.0",
+    "url": "https://registry.npmjs.org/@babel/cli/-/cli-8.1.0.tgz",
+    "sha256": "b7a1c775b4427d5023009da693c3176650dc42b52e6c6d9207befbe489845c6a"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "lint-staged",
+    "version": "17.6.0",
+    "url": "https://registry.npmjs.org/lint-staged/-/lint-staged-17.6.0.tgz",
+    "sha256": "1f70cce97edf792d1c3e27d8233245a4c052eb52471e0c44b8174d7a3424c7a7"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "gulp",
+    "version": "5.0.1",
+    "url": "https://registry.npmjs.org/gulp/-/gulp-5.0.1.tgz",
+    "sha256": "43325994327c372d028ab0d2a5dda45539d5f4f18f832a959458dcf04ec72d49"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "sass-loader",
+    "version": "17.1.0",
+    "url": "https://registry.npmjs.org/sass-loader/-/sass-loader-17.1.0.tgz",
+    "sha256": "f28d54db137c2263e8fe8f050ee804a523e4f7f8b820dfef18e4dd7060b49ac5"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "node-sass",
+    "version": "9.0.0",
+    "url": "https://registry.npmjs.org/node-sass/-/node-sass-9.0.0.tgz",
+    "sha256": "5d28db5f71284fb2ef2ec8e1fa66de7ff5e3d62bad4a514141d3a660cd1a159d"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "commander",
+    "version": "15.0.0",
+    "url": "https://registry.npmjs.org/commander/-/commander-15.0.0.tgz",
+    "sha256": "632c1e039b31e98fa79c4fae5b10a5ffbbf9df0f21c9ffb3d74e95734b30696f"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "fs-extra",
+    "version": "11.4.1",
+    "url": "https://registry.npmjs.org/fs-extra/-/fs-extra-11.4.1.tgz",
+    "sha256": "6eee04ab29b3f37ce2fa75014fb3fd4836d8a24a2945edfae11e571409ffcbfa"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "sinon",
+    "version": "22.1.0",
+    "url": "https://registry.npmjs.org/sinon/-/sinon-22.1.0.tgz",
+    "sha256": "ce6e9fe32388a3ea39996bad3c7e907cea42de7e8bbddc297b56165b16538ac3"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "vue-template-compiler",
+    "version": "2.7.16",
+    "url": "https://registry.npmjs.org/vue-template-compiler/-/vue-template-compiler-2.7.16.tgz",
+    "sha256": "edc29b7d2abb4fc76c862f58c17bcab80fab319dcfba578ca0aa0b66b1e68981"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "@types/react-dom",
+    "version": "19.3.0",
+    "url": "https://registry.npmjs.org/@types/react-dom/-/react-dom-19.3.0.tgz",
+    "sha256": "0782e1cd4af4a6a030843235a48e55dc690c36f9428b0b672dc53350806dcf21"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "core-js",
+    "version": "3.51.0",
+    "url": "https://registry.npmjs.org/core-js/-/core-js-3.51.0.tgz",
+    "sha256": "2a7abc3121a44b75acdf02b9bdd7408e22633f70f422fc0bd5b9e00abb17bb31"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "babel-jest",
+    "version": "30.5.2",
+    "url": "https://registry.npmjs.org/babel-jest/-/babel-jest-30.5.2.tgz",
+    "sha256": "f6f11cf68f953d00cb4fcaf67094848eeafc7c2c77ed68e979bafc49c5f63a93"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "@babel/preset-react",
+    "version": "8.0.1",
+    "url": "https://registry.npmjs.org/@babel/preset-react/-/preset-react-8.0.1.tgz",
+    "sha256": "5530d8a8138cb43cebcc8f02f5c21cb3d2f3255933d7d90251ddd141d2eeff70"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "html-webpack-plugin",
+    "version": "5.6.8",
+    "url": "https://registry.npmjs.org/html-webpack-plugin/-/html-webpack-plugin-5.6.8.tgz",
+    "sha256": "f23790bd521697a96bce6fc67b25d7fef818cc5fe80ebfb48f37ee307be644fd"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "@rollup/plugin-node-resolve",
+    "version": "16.0.3",
+    "url": "https://registry.npmjs.org/@rollup/plugin-node-resolve/-/plugin-node-resolve-16.0.3.tgz",
+    "sha256": "7d25e2b297ecf73542673e8ce4ca150443c3caf40269406371b94d883e0a7ced"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "nyc",
+    "version": "18.0.0",
+    "url": "https://registry.npmjs.org/nyc/-/nyc-18.0.0.tgz",
+    "sha256": "4a6907ef0956103a192bd29e1a784524f3ed8f1832eec438eee937c4828577be"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "file-loader",
+    "version": "6.2.0",
+    "url": "https://registry.npmjs.org/file-loader/-/file-loader-6.2.0.tgz",
+    "sha256": "f08c0ee983b8b221f942a6a292e1bb2ded1ce9031229a03453c1efd3ba8320fb"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "eslint-plugin-promise",
+    "version": "7.3.0",
+    "url": "https://registry.npmjs.org/eslint-plugin-promise/-/eslint-plugin-promise-7.3.0.tgz",
+    "sha256": "1e6da8d517db41ff037c8f4a0e5621c6c021e2d88834f61b4e9efca7a3a996dd"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "prop-types",
+    "version": "15.8.1",
+    "url": "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz",
+    "sha256": "1c739eb05d8a462c286a4e9dd02f2ce5485c6fa3529244e9ff9b13a3671aa557"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "eslint-plugin-node",
+    "version": "11.1.0",
+    "url": "https://registry.npmjs.org/eslint-plugin-node/-/eslint-plugin-node-11.1.0.tgz",
+    "sha256": "ea5158a318025e6ca59b0ad6f43f118b981f88e4b102ee99233d1e7c2465184b"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "request",
+    "version": "2.88.2",
+    "url": "https://registry.npmjs.org/request/-/request-2.88.2.tgz",
+    "sha256": "e86dae884084b90a300096972f5954c815ebe5877c590df7fd170e8b71724242"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "eslint-plugin-jsx-a11y",
+    "version": "6.10.2",
+    "url": "https://registry.npmjs.org/eslint-plugin-jsx-a11y/-/eslint-plugin-jsx-a11y-6.10.2.tgz",
+    "sha256": "2740719a2bddb1a1b80e514503284b8e76915ea80e4d86aa978ff3aa7923271b"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "@rollup/plugin-commonjs",
+    "version": "29.0.3",
+    "url": "https://registry.npmjs.org/@rollup/plugin-commonjs/-/plugin-commonjs-29.0.3.tgz",
+    "sha256": "46277b79d3fc450844485095a9e4984934ba36675ea2c40b76abb65332fd9993"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "moment",
+    "version": "2.31.0",
+    "url": "https://registry.npmjs.org/moment/-/moment-2.31.0.tgz",
+    "sha256": "efddf549c13aa7cf270f573d9c464978ab0810c0652673ae6af1189bb56ab3f8"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "coveralls",
+    "version": "3.1.1",
+    "url": "https://registry.npmjs.org/coveralls/-/coveralls-3.1.1.tgz",
+    "sha256": "6ef7e780b2bbdcad2b14fe8a67074646dc75d80306304c30baf2a7733746982b"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "npm-run-all",
+    "version": "4.1.5",
+    "url": "https://registry.npmjs.org/npm-run-all/-/npm-run-all-4.1.5.tgz",
+    "sha256": "9b73632f016a90db2d090c1d89d211fd4ce46d6281948721986f6897f7fbabfc"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "karma",
+    "version": "6.4.4",
+    "url": "https://registry.npmjs.org/karma/-/karma-6.4.4.tgz",
+    "sha256": "d14fbaacad9fe823c149c9dbad1f108caf7e4d6ed93b47d8596ecd3ecc74d188"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "babel-preset-react",
+    "version": "6.24.1",
+    "url": "https://registry.npmjs.org/babel-preset-react/-/babel-preset-react-6.24.1.tgz",
+    "sha256": "c29880f5c363b45f18be00f389983383172fdfe2fe613b518ccf5c358bf08c6d"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "@types/mocha",
+    "version": "10.0.10",
+    "url": "https://registry.npmjs.org/@types/mocha/-/mocha-10.0.10.tgz",
+    "sha256": "d68e73035d26211722e9259b06eba260859c8349cee8175cc1543b2232488a1a"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "eslint-config-standard",
+    "version": "17.1.0",
+    "url": "https://registry.npmjs.org/eslint-config-standard/-/eslint-config-standard-17.1.0.tgz",
+    "sha256": "9c40e16c32dd9d797bb96b01871842062b75200e22712371b3b917b8aef06849"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "postcss-loader",
+    "version": "8.2.1",
+    "url": "https://registry.npmjs.org/postcss-loader/-/postcss-loader-8.2.1.tgz",
+    "sha256": "ecfbd359400ba88e19487230a18c0f338c926e6e2b4d5c26523e45878f86ac78"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "eslint-plugin-standard",
+    "version": "5.0.0",
+    "url": "https://registry.npmjs.org/eslint-plugin-standard/-/eslint-plugin-standard-5.0.0.tgz",
+    "sha256": "bce360b7b58bfb6550477e7e8b4d95bc2d16bce6973e8b32cff09f3f638a90a8"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "glob",
+    "version": "14.0.3",
+    "url": "https://registry.npmjs.org/glob/-/glob-14.0.3.tgz",
+    "sha256": "f936d47081e316874bcd0ad9ed38a4275c7a16f5dd3300917231e0030a0acd91"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "inquirer",
+    "version": "14.2.5",
+    "url": "https://registry.npmjs.org/inquirer/-/inquirer-14.2.5.tgz",
+    "sha256": "1738d1488cfa340e4618e0751660b6065549374c20cbb0c91bf77d07a1b76da2"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "@babel/plugin-proposal-class-properties",
+    "version": "7.18.6",
+    "url": "https://registry.npmjs.org/@babel/plugin-proposal-class-properties/-/plugin-proposal-class-properties-7.18.6.tgz",
+    "sha256": "667e2abea344841513c76b09c7a6af73860d6734c12864872644a2b7a0ecf20c"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "eslint-plugin-vue",
+    "version": "10.12.0",
+    "url": "https://registry.npmjs.org/eslint-plugin-vue/-/eslint-plugin-vue-10.12.0.tgz",
+    "sha256": "4ad8d78bd958d93e4d84b2950006e53c9eb098441c1f32402fdadbe60ef78047"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "url-loader",
+    "version": "4.1.1",
+    "url": "https://registry.npmjs.org/url-loader/-/url-loader-4.1.1.tgz",
+    "sha256": "2506a656d4c35e9736767252972b48598216c18498907fef89873300c71ae678"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "debug",
+    "version": "4.4.3",
+    "url": "https://registry.npmjs.org/debug/-/debug-4.4.3.tgz",
+    "sha256": "89c1ac9c946ee8905a875837114528e97eeae35e03be3190584b2216af43e4a7"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "@babel/runtime",
+    "version": "8.1.0",
+    "url": "https://registry.npmjs.org/@babel/runtime/-/runtime-8.1.0.tgz",
+    "sha256": "8abdf61b4c1a4b1869a111ee55d9858b872f130b89abb191d0e7a6706d8435b9"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "ts-loader",
+    "version": "9.6.2",
+    "url": "https://registry.npmjs.org/ts-loader/-/ts-loader-9.6.2.tgz",
+    "sha256": "37a4cb6522537cd53f7ea62190a8398f2ee1a47b04d554c96f586c4d517f735d"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "react-scripts",
+    "version": "5.0.1",
+    "url": "https://registry.npmjs.org/react-scripts/-/react-scripts-5.0.1.tgz",
+    "sha256": "67b7e641fc1951d735de90f2116376af983c83360f8318cbdf0af679294d606e"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "rollup-plugin-node-resolve",
+    "version": "5.2.0",
+    "url": "https://registry.npmjs.org/rollup-plugin-node-resolve/-/rollup-plugin-node-resolve-5.2.0.tgz",
+    "sha256": "ecd202b6b4b49fa8019975c2630fa97d83f3f6062140090608681908ed6af08d"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "sass",
+    "version": "1.107.1",
+    "url": "https://registry.npmjs.org/sass/-/sass-1.107.1.tgz",
+    "sha256": "e983e8e3ecfa2d15fc67ae0aa613a68aecc27c30cfa141b1fb1b7ca07a288faa"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "istanbul",
+    "version": "0.4.5",
+    "url": "https://registry.npmjs.org/istanbul/-/istanbul-0.4.5.tgz",
+    "sha256": "093dd30bb47aa311a6a44eb88b49ece9f9af9bcd55ac5b862f428b3592cc4b03"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "rollup-plugin-terser",
+    "version": "7.0.2",
+    "url": "https://registry.npmjs.org/rollup-plugin-terser/-/rollup-plugin-terser-7.0.2.tgz",
+    "sha256": "c2fb949e9a7663e4c59fc78d7324dc11921d38523751679ec8a1623755b257fe"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "eslint-config-airbnb",
+    "version": "19.0.4",
+    "url": "https://registry.npmjs.org/eslint-config-airbnb/-/eslint-config-airbnb-19.0.4.tgz",
+    "sha256": "7ccbcbb4d82928ec5f81ff7232f4def7a9a36ab8148aa1b8ec3d49df06be578b"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "rollup-plugin-babel",
+    "version": "4.4.0",
+    "url": "https://registry.npmjs.org/rollup-plugin-babel/-/rollup-plugin-babel-4.4.0.tgz",
+    "sha256": "932e5c6eb502865ca77aec3fbec02707342671a36a58e136dcff23b544877eb9"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "@testing-library/react",
+    "version": "16.3.3",
+    "url": "https://registry.npmjs.org/@testing-library/react/-/react-16.3.3.tgz",
+    "sha256": "a34993ab7ff75ff4492655a71b14a8a0d4634148a0e2f128a82cb34fc1308a4e"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "semver",
+    "version": "7.8.6",
+    "url": "https://registry.npmjs.org/semver/-/semver-7.8.6.tgz",
+    "sha256": "c6584c324e8b1e5d0403c6c16ee2b25dd61567c13f0449a58820350c21cd71bf"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "yargs",
+    "version": "18.2.0",
+    "url": "https://registry.npmjs.org/yargs/-/yargs-18.2.0.tgz",
+    "sha256": "44ddd9d39e41a7d73dd794b6d229f2b92fd655d394ef59e2ca34d31df6181d13"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "dotenv",
+    "version": "18.0.9",
+    "url": "https://registry.npmjs.org/dotenv/-/dotenv-18.0.9.tgz",
+    "sha256": "d3a797ba2dea4970b314e65156703965e83cc5f926ffec6648b9540f9ad5715a"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "@babel/plugin-transform-runtime",
+    "version": "8.0.6",
+    "url": "https://registry.npmjs.org/@babel/plugin-transform-runtime/-/plugin-transform-runtime-8.0.6.tgz",
+    "sha256": "53a042a2cb0ad1ab144240f446b62f3eb1cea49e73f51f61f8080dd71eb0b7dd"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "rxjs",
+    "version": "7.8.2",
+    "url": "https://registry.npmjs.org/rxjs/-/rxjs-7.8.2.tgz",
+    "sha256": "2312f8ffd9726ffd7bd53ea12c5f13663d09a3dc3326f448c70b88f5ef6fac82"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "@vue/cli-service",
+    "version": "5.0.9",
+    "url": "https://registry.npmjs.org/@vue/cli-service/-/cli-service-5.0.9.tgz",
+    "sha256": "ea032b7a6a0b2e45c3c9e44f93b09dea721cdbfe5e5e8a4a1476112f8e61858f"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "uuid",
+    "version": "14.0.3",
+    "url": "https://registry.npmjs.org/uuid/-/uuid-14.0.3.tgz",
+    "sha256": "4750af69abb91dae4c49e4c71c96fd6a3bd0613900f18429b955ad6fb8099977"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "eslint-plugin-react-hooks",
+    "version": "7.1.1",
+    "url": "https://registry.npmjs.org/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-7.1.1.tgz",
+    "sha256": "fb92ecd0f8f216877c48283971879bc29041f1d0a39554ba5f0fe0b2fd85df53"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "esbuild",
+    "version": "0.28.2",
+    "url": "https://registry.npmjs.org/esbuild/-/esbuild-0.28.2.tgz",
+    "sha256": "e045f94c235c7adc50e77ba2a579c7bec41b496b6b47c3a7845f7c1e19959a88"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "@swc/core",
+    "version": "1.16.22",
+    "url": "https://registry.npmjs.org/@swc/core/-/core-1.16.22.tgz",
+    "sha256": "19ba0ac64879bd90305b34942e127d47dcdbf55ca200781ec79b6472edfdf650"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "sharp",
+    "version": "0.35.5",
+    "url": "https://registry.npmjs.org/sharp/-/sharp-0.35.5.tgz",
+    "sha256": "3b6bbbe6b308f5c383938ca4a31926cd5d79c4651ed8c5fda16a97da2014a9ac"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "puppeteer",
+    "version": "25.16.0",
+    "url": "https://registry.npmjs.org/puppeteer/-/puppeteer-25.16.0.tgz",
+    "sha256": "08568210e4f2c972d25499d06f215f39fcc2112b7bf167437cfc4f8d5f70676d"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "playwright",
+    "version": "1.64.1",
+    "url": "https://registry.npmjs.org/playwright/-/playwright-1.64.1.tgz",
+    "sha256": "36ba838d2d55c44fafcff89f919b5d7bc829209318076578ee2bc7cb5687fd57"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "node-gyp",
+    "version": "13.1.0",
+    "url": "https://registry.npmjs.org/node-gyp/-/node-gyp-13.1.0.tgz",
+    "sha256": "15663ca4944844139023390f057e86f1897d855959ea7e96f151d4873be8c71f"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "bcrypt",
+    "version": "6.0.0",
+    "url": "https://registry.npmjs.org/bcrypt/-/bcrypt-6.0.0.tgz",
+    "sha256": "3b2478cda06f066c744e06cd0b68f55e14cc546c19ee2b80be600dfc65b5ae20"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "sqlite3",
+    "version": "6.0.1",
+    "url": "https://registry.npmjs.org/sqlite3/-/sqlite3-6.0.1.tgz",
+    "sha256": "ab8d044a93e05bd031d7ea75547c7fa60387cdc259d27f93c0e3e2832c4b1df9"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "electron",
+    "version": "45.2.3",
+    "url": "https://registry.npmjs.org/electron/-/electron-45.2.3.tgz",
+    "sha256": "f5393996a9eea873e3565f16d8c4e1c0c0b8e02837553b26e924655620c48ad7"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "prisma",
+    "version": "8.0.0-rc.30",
+    "url": "https://registry.npmjs.org/prisma/-/prisma-8.0.0-rc.30.tgz",
+    "sha256": "9fee39f9e3052cf6a2cd963e7d7de4e1ec9b61bc2c0eeb4b853b28ae316f8810"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "@prisma/client",
+    "version": "7.10.1",
+    "url": "https://registry.npmjs.org/@prisma/client/-/client-7.10.1.tgz",
+    "sha256": "f61ebcb6989355c08edeb0596753d8afee6429eadab7b50074dedcb220cfc622"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "cypress",
+    "version": "16.2.1",
+    "url": "https://registry.npmjs.org/cypress/-/cypress-16.2.1.tgz",
+    "sha256": "ac2b70563352b16ec0c7cde1eb1b59aa5032a1584dcd2f4a748683bcd4f8fa41"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "nodemon",
+    "version": "3.1.14",
+    "url": "https://registry.npmjs.org/nodemon/-/nodemon-3.1.14.tgz",
+    "sha256": "6f8851bd80d32526612f6dd6703b65603cef497944a7c081580ae49ce3a2f252"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "next",
+    "version": "16.4.5",
+    "url": "https://registry.npmjs.org/next/-/next-16.4.5.tgz",
+    "sha256": "a9b934c4deda237c1a269da4e68be28f39c7c5e07296a891e0a8346ce847ef97"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "vite",
+    "version": "8.3.6",
+    "url": "https://registry.npmjs.org/vite/-/vite-8.3.6.tgz",
+    "sha256": "37d3d625af80de80e6fb51b97bebd79c15a767aace9818675cd475f480a840ee"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "tailwindcss",
+    "version": "4.3.4",
+    "url": "https://registry.npmjs.org/tailwindcss/-/tailwindcss-4.3.4.tgz",
+    "sha256": "139d326a7d7e871f664ec941338622290a7d08c87cc7cb59b795634db6b8bb64"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "postcss",
+    "version": "8.5.32",
+    "url": "https://registry.npmjs.org/postcss/-/postcss-8.5.32.tgz",
+    "sha256": "8e8eb3453860bfc35cd0e51653a3565980a2d83e4ddcf93f8fa5455754cf9066"
+  },
+  {
+    "ecosystem": "npm",
+    "name": "nx",
+    "version": "24.0.4",
+    "url": "https://registry.npmjs.org/nx/-/nx-24.0.4.tgz",
+    "sha256": "b5d729470659abdf10e36787ae46582eb998d965e5ff8ee5f661240edd538a3c"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "boto3",
+    "version": "1.43.124",
+    "url": "https://files.pythonhosted.org/packages/06/fc/71d0afe1c7bad85524c292bcfb53d89acd5d05a944992a10066eb8e7ecd3/boto3-1.43.124.tar.gz",
+    "sha256": "7f330e53e274a0b8e5982ed3dd4cec9e7e932cf48306c08db8b9e880d09c5c63"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "packaging",
+    "version": "26.3",
+    "url": "https://files.pythonhosted.org/packages/7d/fa/3944b40b07da9ce895c0e6303a5ab7d53da063554f534556b134a54d6093/packaging-26.3.tar.gz",
+    "sha256": "94edc256424af38762eb31306eed28beb9f0efc50a8837492c9d6fd6004aed79"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "typing-extensions",
+    "version": "4.16.0",
+    "url": "https://files.pythonhosted.org/packages/f6/cc/6253133b5bb138fc3306cebfbda2c520f545d36b5be2c7255cc528bb45d6/typing_extensions-4.16.0.tar.gz",
+    "sha256": "dc983d19a509c94dba722ee6abd33940f7c05a89e243c47e907eb4db6f1a43e5"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "certifi",
+    "version": "2026.10.23",
+    "url": "https://files.pythonhosted.org/packages/fd/11/b524cbd9bbdaca58608e4cf4053fd463417549e1959fa8d3aa18319f9555/certifi-2026.10.23.tar.gz",
+    "sha256": "a9895e6e2758b371e0545e321a3a8fd1fcfd9829ada8824a936dfb16aaaf36cd"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "idna",
+    "version": "3.20",
+    "url": "https://files.pythonhosted.org/packages/f5/08/8eea9d4b8302028f3abb2c0813953f7aec26d33b7a8960ed760e65ff29fa/idna-3.20.tar.gz",
+    "sha256": "a7db850025b95ded1eae8a46181a1a6c56c92c96f0e2b005d9ff8dc0210cab44"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "urllib3",
+    "version": "2.8.0",
+    "url": "https://files.pythonhosted.org/packages/e3/05/b17359e1cefb4f909b5e40b1b90a496d987258916dbbf88e842c729f510e/urllib3-2.8.0.tar.gz",
+    "sha256": "63bf2ead4c879426ebf22ef2a781eeb4aa3b4ae798a0435506f8687fd5bb9b63"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "charset-normalizer",
+    "version": "3.5.2",
+    "url": "https://files.pythonhosted.org/packages/33/1c/f41d4e74c28ab327ff3acd36053f7ea506c55872d7a90b0fa71aa3ab0c89/charset_normalizer-3.5.2.tar.gz",
+    "sha256": "39de2a259fc954455c57274dc94c79d5842774e1247a016aff30bc0efed0f4ef"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "requests",
+    "version": "2.34.2",
+    "url": "https://files.pythonhosted.org/packages/ac/c3/e2a2b89f2d3e2179abd6d00ebd70bff6273f37fb3e0cc209f48b39d00cbf/requests-2.34.2.tar.gz",
+    "sha256": "f288924cae4e29463698d6d60bc6a4da69c89185ad1e0bcc4104f584e960b9ed"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "cryptography",
+    "version": "50.0.2",
+    "url": "https://files.pythonhosted.org/packages/9d/af/182eb91b0df3fe75c4d9f26fe70684569566745f6ba7e5c9c73a862c5252/cryptography-50.0.2.tar.gz",
+    "sha256": "7b46165bb56eb4704e2eaaf86f3c940d19154535d9b0ca7d6d590b04060e00d5"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "cffi",
+    "version": "2.1.1",
+    "url": "https://files.pythonhosted.org/packages/9e/ef/008a1939e372c06329a3fce4279c02f328488f3526744906eeec3da7ad5f/cffi-2.1.1.tar.gz",
+    "sha256": "dd31f52ea1086513bb9df30f8fcee9b8918323ae067a3d5b78bc826a000712be"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "pluggy",
+    "version": "1.7.0",
+    "url": "https://files.pythonhosted.org/packages/bf/db/7fc19e6f2dc92a966727031389fc2e08b558f0f25eb7403c1119ad4713cd/pluggy-1.7.0.tar.gz",
+    "sha256": "d1eaa46ebb595891b860ab086b4d09c8588af65ebd4361b8e8f4bb8920b90ba8"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "pyyaml",
+    "version": "6.0.3",
+    "url": "https://files.pythonhosted.org/packages/05/8e/961c0007c59b8dd7729d542c61a4d537767a59645b82a0b521206e1e25c2/pyyaml-6.0.3.tar.gz",
+    "sha256": "d76623373421df22fb4cf8817020cbb7ef15c725b9d5e45f17e189bfc384190f"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "pycparser",
+    "version": "3.12",
+    "url": "https://files.pythonhosted.org/packages/cb/27/eeb9f307bf07060f3d9f9aa0fb8c15b01bdfded0a941e4b2719c7f94cacd/pycparser-3.12.tar.gz",
+    "sha256": "f03387877eab82ce01bbdfd0ba7252ee55a90b1c708d5129e2ce915475cf1db6"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "pygments",
+    "version": "2.21.0",
+    "url": "https://files.pythonhosted.org/packages/49/2e/ced460408999b33da6b31b0021b0f37d329e202d4169aeb164493778f25b/pygments-2.21.0.tar.gz",
+    "sha256": "610ca751c9bc2492b38eb9a38a7fbc93edbbb2d7182edaf34e66ae493dee5c8c"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "python-dateutil",
+    "version": "4.0.0",
+    "url": "https://files.pythonhosted.org/packages/18/39/b3927f3616f6223832f9b760e4208e8a7c7e1dea2b4d9ad7d32a5d214c3a/python_dateutil-4.0.0.tar.gz",
+    "sha256": "d7295ff14fdc0f92f662100bfb6c551d160ca090f2939f1ec5b9794265c03f06"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "six",
+    "version": "1.17.0",
+    "url": "https://files.pythonhosted.org/packages/94/e7/b2c673351809dca68a0e064b6af791aa332cf192da575fd474ed7d6f16a2/six-1.17.0.tar.gz",
+    "sha256": "ff70335d468e7eb6ec65b95b99d3a2836546063f63acc5171de367e834932a81"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "setuptools",
+    "version": "84.2.1",
+    "url": "https://files.pythonhosted.org/packages/70/b3/c19426f783614d625699a4b247faf628ea9ab1db228674491767b417f9e1/setuptools-84.2.1.tar.gz",
+    "sha256": "3ff8b3b5492a0aa66960f4419365a86b84e013070d4313e4d4a6894f5d64d6bc"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "pydantic",
+    "version": "2.14.3",
+    "url": "https://files.pythonhosted.org/packages/b4/fc/1203d011145c98ddce3cd2f505bb54375ef8d43223053df6bfcf3c746f46/pydantic-2.14.3.tar.gz",
+    "sha256": "1054f237f4d4733e5a30e1e2333bd33a2004ab9ab1510bd053a9a31bb48e232d"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "pydantic-core",
+    "version": "2.50.4",
+    "url": "https://files.pythonhosted.org/packages/9c/0f/34f9ce4ba701dd0b815033ef94d99b56f66200e578ee6052aa3ac26f064e/pydantic_core-2.50.4.tar.gz",
+    "sha256": "aead3b74b68396bf0feab5d57e050b730ded7df55853c1e048a87e00aaf033c6"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "click",
+    "version": "8.5.0",
+    "url": "https://files.pythonhosted.org/packages/c7/0e/7fa0ef50764b67090eca4114772a2abf8b6148198475e54c660b97caeee6/click-8.5.0.tar.gz",
+    "sha256": "ba0d2089de75ea0310e2dde03160e6ca10009947fb95a182f9b54021bb272e34"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "numpy",
+    "version": "2.5.4",
+    "url": "https://files.pythonhosted.org/packages/95/b0/c7453d0b6e2073c3264468b106ee1563750cecc910965e67357e3698c83e/numpy-2.5.4.tar.gz",
+    "sha256": "9a94cf751c9ad8ebaa835bcd3d40dacf8534ad086b88c38029b65123c7999d2a"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "botocore",
+    "version": "1.43.124",
+    "url": "https://files.pythonhosted.org/packages/d3/1e/c0abe23b9495414dc79e3faeb6e96e2336053fd8cae7d80cc6bbe4bd02f3/botocore-1.43.124.tar.gz",
+    "sha256": "6df80235995e2926e0768e7ad270e774adcd6ff0307da7ab87ffb8c384edb578"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "anyio",
+    "version": "4.16.0",
+    "url": "https://files.pythonhosted.org/packages/a1/98/7e457a3b014976887a050561955c0b76e1e7e2d6e27b78ecef2ef80518f2/anyio-4.16.0.tar.gz",
+    "sha256": "59bb03251907983d1603d27c3087ddb1e93299ea2163adcdba37899a4fb12ffb"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "annotated-types",
+    "version": "0.8.0",
+    "url": "https://files.pythonhosted.org/packages/5f/56/a8120250d128bed162cd73c76d45f6ef9991f3e068f62a8ee060afa3104a/annotated_types-0.8.0.tar.gz",
+    "sha256": "13b2beaad985e05e2d6407ee4c4f35590b11f8d693a258a561055cac8f64cab7"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "pytest",
+    "version": "9.2.0",
+    "url": "https://files.pythonhosted.org/packages/79/42/bb4641652e58dedeac2ec51abc1f8cae4fee4ec63899a0999016229a0f2a/pytest-9.2.0.tar.gz",
+    "sha256": "97c4f3b1f3c7414aa36465e09b8220f1d03627993bd51b1282e193753c80557b"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "iniconfig",
+    "version": "2.3.1",
+    "url": "https://files.pythonhosted.org/packages/01/e1/2069291243c926a2ff1cd706c7f3eeb9b62144bf60f77c9fb9ff2fb26bd3/iniconfig-2.3.1.tar.gz",
+    "sha256": "67f4b9c50da0dedf52af349e7749a80a9057a5031199791b906c3bb3ae878960"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "typing-inspection",
+    "version": "0.4.5",
+    "url": "https://files.pythonhosted.org/packages/ff/50/0195198eb1d75bab716bb0a813abea4cc394bfa17a92a189f021a34859af/typing_inspection-0.4.5.tar.gz",
+    "sha256": "7f16c411e7930dc79596d42ab44672a3fe5f60eb34b781a1647e7872363120c7"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "h11",
+    "version": "0.16.0",
+    "url": "https://files.pythonhosted.org/packages/01/ee/02a2c011bdab74c6fb3c75474d40b3052059d95df7e73351460c8588d963/h11-0.16.0.tar.gz",
+    "sha256": "4e35b956cf45792e4caa5885e69fba00bdbc6ffafbfa020300e549b208ee5ff1"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "attrs",
+    "version": "26.1.0",
+    "url": "https://files.pythonhosted.org/packages/9a/8e/82a0fe20a541c03148528be8cac2408564a6c9a0cc7e9171802bc1d26985/attrs-26.1.0.tar.gz",
+    "sha256": "d03ceb89cb322a8fd706d4fb91940737b6642aa36998fe130a9bc96c985eff32"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "markupsafe",
+    "version": "3.0.4",
+    "url": "https://files.pythonhosted.org/packages/38/9b/e422a865e1d5d57d0e509b4e0bf1c1a70a7f6382c29a5aa428df994c8bc8/markupsafe-3.0.4.tar.gz",
+    "sha256": "2e9ad7dd851bf45fab9f75cbff4cb493fee9979e8d8c7c9c3ee119022518edd6"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "httpx",
+    "version": "0.28.1",
+    "url": "https://files.pythonhosted.org/packages/b1/df/48c586a5fe32a0f01324ee087459e112ebb7224f646c0b5023f5e79e9956/httpx-0.28.1.tar.gz",
+    "sha256": "75e98c5f16b0f35b567856f597f06ff2270a374470a5c2392242528e3e3e42fc"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "httpcore",
+    "version": "1.0.9",
+    "url": "https://files.pythonhosted.org/packages/06/94/82699a10bca87a5556c9c59b5963f2d039dbd239f25bc2a63907a05a14cb/httpcore-1.0.9.tar.gz",
+    "sha256": "6e34463af53fd2ab5d807f399a9b45ea31c3dfa2276f15a2c3f00afff6e176e8"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "s3transfer",
+    "version": "0.19.3",
+    "url": "https://files.pythonhosted.org/packages/49/c5/0a5ce655109cb96b8dfad36908a4e108d15f5dc2eff8fbc3146c4312e704/s3transfer-0.19.3.tar.gz",
+    "sha256": "8326acc3d056d7f7b8a37110c7d2aea41f67e83f6ae79cd3b5fbcca34c726406"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "protobuf",
+    "version": "7.36.2",
+    "url": "https://files.pythonhosted.org/packages/d9/89/5b8517baa72f84a67b8a307ba953c91057af618bf40bf676f3c03551f8f0/protobuf-7.36.2.tar.gz",
+    "sha256": "497d0463ff3316681da6c0b9e8d06cb465d61abce00b613ab42226175644d1bb"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "python-dotenv",
+    "version": "1.2.4",
+    "url": "https://files.pythonhosted.org/packages/74/26/2fbeedb218a787a5eea551c7532cac4e009f83d689dd2faa0d0353473f86/python_dotenv-1.2.4.tar.gz",
+    "sha256": "f0d53e69935a851c0dcc78f3ab7aaccd8cabef0b92382b576b824212902873c0"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "pyjwt",
+    "version": "2.15.1",
+    "url": "https://files.pythonhosted.org/packages/43/ea/5194e52748b0da83d71e082d75496eaec6e58f419f5e184786ded517e6a9/pyjwt-2.15.1.tar.gz",
+    "sha256": "4f259e80cdfb6b3fc18a7de51fd1ef9ec79652f25019bae68975ca2468a34df8"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "jinja2",
+    "version": "3.1.6",
+    "url": "https://files.pythonhosted.org/packages/df/bf/f7da0350254c0ed7c72f3e33cef02e048281fec7ecec5f032d4aac52226b/jinja2-3.1.6.tar.gz",
+    "sha256": "0137fb05990d35f1275a587e9aee6d56da821fc83491a0fb838183be43f66d6d"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "pandas",
+    "version": "3.1.1",
+    "url": "https://files.pythonhosted.org/packages/17/ca/24c6bc92aca3d366146358e47f1d374c0e1a50763ef226fc71eff20a63fb/pandas-3.1.1.tar.gz",
+    "sha256": "05fed3e3b7c99b226f160e29d7d6cb7ef39638c758cbfe42b3f24ba34f04b859"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "aiobotocore",
+    "version": "3.10.0",
+    "url": "https://files.pythonhosted.org/packages/16/40/659f2ac3915d329e3e8e5bf674d35ce1774f3117c6f60339d5e05e505c36/aiobotocore-3.10.0.tar.gz",
+    "sha256": "35480ef11c51e23087273b85d97f80da2f356a46ce5f3fb88e24483cd343ffdb"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "starlette",
+    "version": "1.10.0",
+    "url": "https://files.pythonhosted.org/packages/48/bb/3d8757f21e9a53d9035c9eb039a777047139a16bfdbedfc7a58241c3d914/starlette-1.10.0.tar.gz",
+    "sha256": "b8399098d4c1e3522734f7235dc79b1fc967f96cf139c81e0fa30479e0685f9b"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "opentelemetry-api",
+    "version": "1.45.2",
+    "url": "https://files.pythonhosted.org/packages/19/14/cf3a6b6448849656e1e5f4e2101f3988dc6789724050096aba1bc5ccf592/opentelemetry_api-1.45.2.tar.gz",
+    "sha256": "d7b0008e21e5fd61cbe7a7f34ca3b6905a78ab677d9bc395e299359c75cda6b4"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "platformdirs",
+    "version": "4.14.5",
+    "url": "https://files.pythonhosted.org/packages/d7/9a/8475be631fb33ca1466915e70fd594c42a4e84b512db650eaa14f90fe75d/platformdirs-4.14.5.tar.gz",
+    "sha256": "32e9921db7385aa8169bee4fe9501923e5715ba9fb7ea3b9c69b0d8e0639f7a1"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "pillow",
+    "version": "13.0.0",
+    "url": "https://files.pythonhosted.org/packages/ce/a4/9cc30690a394a8305e8be4c9036aa16d0dfddadd09079860b582f562496d/pillow-13.0.0.tar.gz",
+    "sha256": "cdcd1ba258178f7356d74170c9a81ba4eab6a5d55748bc402a5a2a6fe6be3510"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "uvicorn",
+    "version": "0.54.0",
+    "url": "https://files.pythonhosted.org/packages/da/34/30e9280707135d2cfc589dfff3cb796bd07a3aeb1a3e415ba09dd89d7bb4/uvicorn-0.54.0.tar.gz",
+    "sha256": "a2e33cbfaa0306f8e6b0c13e0cb89d7d7a2da3e62b90c66e18c33d9807b28620"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "pathspec",
+    "version": "1.1.1",
+    "url": "https://files.pythonhosted.org/packages/5a/82/42f767fc1c1143d6fd36efb827202a2d997a375e160a71eb2888a925aac1/pathspec-1.1.1.tar.gz",
+    "sha256": "17db5ecd524104a120e173814c90367a96a98d07c45b2e10c2f3919fff91bf5a"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "rpds-py",
+    "version": "2026.9.1",
+    "url": "https://files.pythonhosted.org/packages/42/68/3bd46b8a5e01d3c2ebdf9c5e9497912e3fe0cde02bac21a7130ca866e403/rpds_py-2026.9.1.tar.gz",
+    "sha256": "4793ef7f78268b124b73fa933440f01d258bbae01de9fa53e9080c9ab0425a12"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "fsspec",
+    "version": "2026.9.0",
+    "url": "https://files.pythonhosted.org/packages/77/cd/9be253869fc42e764de7f3dedd6969af7d44ff9c3375214a3442a6f3fc08/fsspec-2026.9.0.tar.gz",
+    "sha256": "0f08147951c8cb31d844c3547d631053b127863b60be04cf06e121333ee0e2fe"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "jsonschema",
+    "version": "4.26.0",
+    "url": "https://files.pythonhosted.org/packages/b3/fc/e067678238fa451312d4c62bf6e6cf5ec56375422aee02f9cb5f909b3047/jsonschema-4.26.0.tar.gz",
+    "sha256": "0c26707e2efad8aa1bfc5b7ce170f3fccc2e4918ff85989ba9ffa9facb2be326"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "filelock",
+    "version": "4.2.9",
+    "url": "https://files.pythonhosted.org/packages/a3/1d/d730c664fcb4f1d264a722722a3134cf0881854f73c1fd58abf87572f232/filelock-4.2.9.tar.gz",
+    "sha256": "96530b7c538d4ea08493ab067247aab7948c54d8cd622cce711c97cccc5d9896"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "jmespath",
+    "version": "1.1.0",
+    "url": "https://files.pythonhosted.org/packages/d3/59/322338183ecda247fb5d1763a6cbe46eff7222eaeebafd9fa65d4bf5cb11/jmespath-1.1.0.tar.gz",
+    "sha256": "472c87d80f36026ae83c6ddd0f1d05d4e510134ed462851fd5f754c8c3cbb88d"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "tzdata",
+    "version": "2026.6",
+    "url": "https://files.pythonhosted.org/packages/7a/29/6a1391d31cd00ff9e927215a224a880e1e84e826b64ba80a499e51c074d8/tzdata-2026.6.tar.gz",
+    "sha256": "85d2cd9c09f81f0bb29db27759fc83af4f1e620efb814f8c5bf8b4cc4feece6d"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "referencing",
+    "version": "0.37.0",
+    "url": "https://files.pythonhosted.org/packages/22/f5/df4e9027acead3ecc63e50fe1e36aca1523e1719559c499951bb4b53188f/referencing-0.37.0.tar.gz",
+    "sha256": "44aefc3142c5b842538163acb373e24cce6632bd54bdb01b21ad5863489f50d8"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "tomlkit",
+    "version": "0.15.2",
+    "url": "https://files.pythonhosted.org/packages/08/72/fc01563df95c189a9f65850096bdc205bc2fe37da6c740cd64afaf18d07e/tomlkit-0.15.2.tar.gz",
+    "sha256": "83e32755ba1d20d9340bd069ee97e9f6232ba2346b63ffcba425de01f7e327a6"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "jsonschema-specifications",
+    "version": "2025.9.1",
+    "url": "https://files.pythonhosted.org/packages/19/74/a633ee74eb36c44aa6d1095e7cc5569bebf04342ee146178e2d36600708b/jsonschema_specifications-2025.9.1.tar.gz",
+    "sha256": "b540987f239e745613c7a9176f3edb72b832a4ac465cf02712288397832b5e8d"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "multidict",
+    "version": "7.2.1",
+    "url": "https://files.pythonhosted.org/packages/7b/6b/29ef8e752f5854dcc267ded0652c475bec99b86f255957a0d4fcad657b18/multidict-7.2.1.tar.gz",
+    "sha256": "e8af3e6f1bdbc31fd762b094133b478b89988eaebc63cbe82b1d9e3bbd15cede"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "markdown-it-py",
+    "version": "4.2.0",
+    "url": "https://files.pythonhosted.org/packages/06/ff/7841249c247aa650a76b9ee4bbaeae59370dc8bfd2f6c01f3630c35eb134/markdown_it_py-4.2.0.tar.gz",
+    "sha256": "04a21681d6fbb623de53f6f364d352309d4094dd4194040a10fd51833e418d49"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "rich",
+    "version": "15.0.0",
+    "url": "https://files.pythonhosted.org/packages/c0/8f/0722ca900cc807c13a6a0c696dacf35430f72e0ec571c4275d2371fca3e9/rich-15.0.0.tar.gz",
+    "sha256": "edd07a4824c6b40189fb7ac9bc4c52536e9780fbbfbddf6f1e2502c31b068c36"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "aiohttp",
+    "version": "3.14.5",
+    "url": "https://files.pythonhosted.org/packages/6c/4c/bdccd81e9ee225b69c60e7766c9a5b05364f118f4d383713b89a682d772d/aiohttp-3.14.5.tar.gz",
+    "sha256": "5558a7f5a05af9ecf744af91e5baefc436f93c9333e656c27ec253f9a6bbe178"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "yarl",
+    "version": "1.25.1",
+    "url": "https://files.pythonhosted.org/packages/75/16/e8be8e2fb175bbf41a0680381a319f1199fae256588241a2ac8677eafb49/yarl-1.25.1.tar.gz",
+    "sha256": "03dd38de09bc213e9a8b29761eec33ee1d5318dac0e49d8af36e4d27830e23a7"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "mdurl",
+    "version": "0.1.2",
+    "url": "https://files.pythonhosted.org/packages/d6/54/cfe61301667036ec958cb99bd3efefba235e65cdeb9c84d24a8293ba1d90/mdurl-0.1.2.tar.gz",
+    "sha256": "bb413d29f5eea38f31dd4754dd7377d4465116fb207585f97bf925588687c1ba"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "propcache",
+    "version": "0.5.4",
+    "url": "https://files.pythonhosted.org/packages/b3/9a/9fbf4e4ec0c2d7f1c32519fff782ef467859b8faa9fbc5331a96f6395d43/propcache-0.5.4.tar.gz",
+    "sha256": "ff6b113f50bc066a698db5d944d2c6dc7507168dd3341e255a8892fd0715a558"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "pip",
+    "version": "26.3",
+    "url": "https://files.pythonhosted.org/packages/53/c7/f8d9e2e0e7c1ed8a22a10eeb3b5bf7860bc07d8446c7a978a882c5c8214b/pip-26.3.tar.gz",
+    "sha256": "6c36ae7da8695be67e3cd9f7d87919667ced53f57ce2ede75d89b5912ed2bc4c"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "annotated-doc",
+    "version": "0.0.5",
+    "url": "https://files.pythonhosted.org/packages/5a/8e/38aa427ed5402449e226975b649c5dc73ccadfefeb95e6aecb8f8ea4b6b6/annotated_doc-0.0.5.tar.gz",
+    "sha256": "c7e58ce09192557605d8bbd92836d7e1d520ac9580096042c0bfd197efacf1bb"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "websockets",
+    "version": "17.4",
+    "url": "https://files.pythonhosted.org/packages/75/79/590c5f0cc7d1661195aeefccb0e342b79f4c77d368d526d028821a390332/websockets-17.4.tar.gz",
+    "sha256": "09d3939b70df0c8ad2da145ebd50978bccaee1d565e838b0e7921a34d38571eb"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "fastapi",
+    "version": "0.162.0",
+    "url": "https://files.pythonhosted.org/packages/e9/eb/2cf8c80abf09b2800aef0a83b41066fbfda8ee5495b7a08b9d1af40f7046/fastapi-0.162.0.tar.gz",
+    "sha256": "6a22c1e2e6e32e0633ee7e170f00009a29b8228b16feb219ee42f32fd8d88a8f"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "googleapis-common-protos",
+    "version": "1.76.0",
+    "url": "https://files.pythonhosted.org/packages/62/b6/bc095b23a3e0d978e75c8c18cabe4c11f791837410670e4486f0d539bfba/googleapis_common_protos-1.76.0.tar.gz",
+    "sha256": "71db0e44a1d4c2dd024ebad44ca67129cc1e2892e4861df466764749d5ef8642"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "pytz",
+    "version": "2026.6",
+    "url": "https://files.pythonhosted.org/packages/f5/b0/168030b0bfcc334cf09fa3313afdb888d892c8a0027324683d1de0ec277e/pytz-2026.6.tar.gz",
+    "sha256": "3b0fc2727707663d6e517936f444fd8a8b240f1fc32f4bf7ee03274245945284"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "frozenlist",
+    "version": "1.8.0",
+    "url": "https://files.pythonhosted.org/packages/2d/f5/c831fac6cc817d26fd54c7eaccd04ef7e0288806943f7cc5bbf69f3ac1f0/frozenlist-1.8.0.tar.gz",
+    "sha256": "3ede829ed8d842f6cd48fc7081d7a41001a56f1f38603f9d49bf3020d59a31ad"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "tqdm",
+    "version": "4.70.1",
+    "url": "https://files.pythonhosted.org/packages/0d/ea/b2a5bd54b28a324dae8211928b2d730b6547500342c7e6c6dea08bd0a485/tqdm-4.70.1.tar.gz",
+    "sha256": "cefd0eca11b2a37a3aee776544d4f4ae913f02688135b5556b8788dfa474afc4"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "pyasn1",
+    "version": "0.6.5",
+    "url": "https://files.pythonhosted.org/packages/88/7e/3c0da41061a2021cac7cd524fd57092adbe5b515e8bf9005702e366802e2/pyasn1-0.6.5.tar.gz",
+    "sha256": "6b11616a6bcf3a40e635f082bb232fa57b5e0dd7f517bd7ddd69ec3794508a47"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "aiosignal",
+    "version": "1.4.0",
+    "url": "https://files.pythonhosted.org/packages/61/62/06741b579156360248d1ec624842ad0edf697050bbaf7c3e46394e106ad1/aiosignal-1.4.0.tar.gz",
+    "sha256": "f47eecd9468083c2029cc99945502cb7708b082c232f9aca65da147157b251c7"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "aiohappyeyeballs",
+    "version": "2.7.1",
+    "url": "https://files.pythonhosted.org/packages/ce/f4/eec0465c2f67b2664688d0240b3212d5196fd89e741df67ddb81f8d35658/aiohappyeyeballs-2.7.1.tar.gz",
+    "sha256": "065665c041c42a5938ed220bdcd7230f22527fbec085e1853d2402c8a3615d9d"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "sniffio",
+    "version": "1.3.1",
+    "url": "https://files.pythonhosted.org/packages/a2/87/a6771e1546d97e7e041b6ae58d80074f81b7d5121207425c964ddf5cfdbd/sniffio-1.3.1.tar.gz",
+    "sha256": "f4324edc670a0f49750a81b895f35c3adb843cca46f0530f79fc1babb23789dc"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "pydantic-settings",
+    "version": "2.16.2",
+    "url": "https://files.pythonhosted.org/packages/d0/31/21d21e0e38a8f5f7a7f0cde22820117b6d17d6bc36f348129527f915d7f4/pydantic_settings-2.16.2.tar.gz",
+    "sha256": "3dc08ffabed2bbd5dc2dd55ead7b78b4e4c5cd776aecd04310db5f1224caaf46"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "wrapt",
+    "version": "2.5.2",
+    "url": "https://files.pythonhosted.org/packages/9c/b0/f752d19e1e83ab8bd64aeccfde32ff086aee3ef08520f7340b69a8d0a4d2/wrapt-2.5.2.tar.gz",
+    "sha256": "551cb49e88b3722faad780303833bc4fa70685fb1773270fb98b40d39d9fddbf"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "python-multipart",
+    "version": "0.0.33",
+    "url": "https://files.pythonhosted.org/packages/9f/b7/15b905f6142a9a8a68f66900788da1a32e4d4254452783b37ad1eccb0506/python_multipart-0.0.33.tar.gz",
+    "sha256": "b8112424a6abd162ec08d390565dd113ad699f2fe6fef3c987b8bbcbfe9e390d"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "google-auth",
+    "version": "2.62.1",
+    "url": "https://files.pythonhosted.org/packages/c4/38/d79ab09dcfc1e1638d887c8f65657619d3ebc454165c558ef79355971ce3/google_auth-2.62.1.tar.gz",
+    "sha256": "3c8e1ce2553784ae17fd220e6f88df3281d86ab98019278f436d06dffab17a9e"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "pyarrow",
+    "version": "26.0.1",
+    "url": "https://files.pythonhosted.org/packages/bc/5e/9cb2a56d5e293aab4e2fbecc5b0620d93227d66b8d5a63c554c31e1f80fe/pyarrow-26.0.1.tar.gz",
+    "sha256": "93affcbd8a343e98dc19e9ec8fe17271ebf8fe98102d8b7454175074409f8b72"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "trove-classifiers",
+    "version": "2026.9.21.13",
+    "url": "https://files.pythonhosted.org/packages/bf/93/af436dfaa845cab5d96f0adbc1e4f3730532d37fa249e4eb796fb1d7fc82/trove_classifiers-2026.9.21.13.tar.gz",
+    "sha256": "0a9ebc8d4e2f3e8a22848c5258033035bec17a3012ac3fea16dbaa764489eb71"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "zipp",
+    "version": "4.1.2",
+    "url": "https://files.pythonhosted.org/packages/18/05/ba1458dee0ac485b2a01071c1b88f5199fe878a485df482e10e1ef2205cc/zipp-4.1.2.tar.gz",
+    "sha256": "cf474b90b07ea932637e17c6b9479de2b2882900b0d311bdaf4f5c000a15a97f"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "lxml",
+    "version": "6.1.3",
+    "url": "https://files.pythonhosted.org/packages/23/ad/28ecd7cb894d172f3c9c80a075eeeb2017ac62e3632cee05a5f9493547eb/lxml-6.1.3.tar.gz",
+    "sha256": "45222d94ddd511536f3b2f7d9deae3b2339b4ce0f075f1ca25703b07cad9dd21"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "tenacity",
+    "version": "9.2.1",
+    "url": "https://files.pythonhosted.org/packages/82/9e/497c1c8ebe5a5b5d1d4a7511aea22c0bb1a97e3170d98abdef0e1b34265a/tenacity-9.2.1.tar.gz",
+    "sha256": "a606b5c808d0cded4a359d5b9932d867ff2a6a6b64d37350260fd01bbdf83839"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "importlib-metadata",
+    "version": "10.1.0",
+    "url": "https://files.pythonhosted.org/packages/98/f6/4eda8458eb00ec03e715c376c6b23b3def69687924c68d36d1c4003d3bc4/importlib_metadata-10.1.0.tar.gz",
+    "sha256": "82b04047fa09792c1a8cfeddfe08bec79e4b13c29c8469b0d3949860f61017e8"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "pyasn1-modules",
+    "version": "0.4.2",
+    "url": "https://files.pythonhosted.org/packages/e9/e6/78ebbb10a8c8e4b61a59249394a4a594c1a7af95593dc933a349c8d00964/pyasn1_modules-0.4.2.tar.gz",
+    "sha256": "677091de870a80aae844b1ca6134f54652fa2c8c5a52aa396440ac3106e941e6"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "ruff",
+    "version": "0.17.3",
+    "url": "https://files.pythonhosted.org/packages/59/73/81f140c4edd9cc323de5478e6bbd3bbcfae9a82692df1a258de8cec6a6d2/ruff-0.17.3.tar.gz",
+    "sha256": "a57049c8addb3662073859bb55a7ad35aa54f8a7c9ed268911d1333c5aadaaa9"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "sqlalchemy",
+    "version": "2.1.8",
+    "url": "https://files.pythonhosted.org/packages/9c/e7/2855174facf54a83b4fa3eddcece3631c6bdae43605dacd69cc3b6794319/sqlalchemy-2.1.8.tar.gz",
+    "sha256": "8bc4081dd7c17c073f2384ad0f5ee968e63b43507b2e024a3523c000a06d70da"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "jiter",
+    "version": "0.18.0",
+    "url": "https://files.pythonhosted.org/packages/63/5b/f68319f4fe624311a744a33d10fdbcac4c971991e348223cba60d31780b2/jiter-0.18.0.tar.gz",
+    "sha256": "a0ca63fd9450a212e4e658d4cfe0ab4977c4f9b0003c68828b843c65e27662ff"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "greenlet",
+    "version": "3.5.6",
+    "url": "https://files.pythonhosted.org/packages/3e/6e/0091f175ccd02b02bc8811bbcbcc6ac2e980be116e3b2f7a736ca322bf84/greenlet-3.5.6.tar.gz",
+    "sha256": "8e67c43bdfc88d5fee6db0d3e40175b362fc95fb85f0412d233b9b203c53a575"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "hatchling",
+    "version": "1.33.0",
+    "url": "https://files.pythonhosted.org/packages/7a/f1/e47b937226ae3b093bbd0132eb0b7ee5bfad12c2b5324afd10ae49946b05/hatchling-1.33.0.tar.gz",
+    "sha256": "4c422bd4d554fcff5de5b73e9596f85e41e9f97f7e553d8f7595ecb31a627bef"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "wheel",
+    "version": "0.48.0",
+    "url": "https://files.pythonhosted.org/packages/d0/20/50ed6bdf27dec98b568a8ae25dc599f35baa3d9709f9e83fd1edb56b9a90/wheel-0.48.0.tar.gz",
+    "sha256": "94800765601e9171bf5d58d066e640662842bcedcbab982b2c90787a2c987322"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "pyparsing",
+    "version": "3.3.3",
+    "url": "https://files.pythonhosted.org/packages/e4/11/b213bebff182584360cb8d17c72c1677fec5c5c228de439e63bcf8ab1c8f/pyparsing-3.3.3.tar.gz",
+    "sha256": "928ae7e20211f3b6f3915a72f06a0cfd29ab9d24279dd6346b6b1a7146397d36"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "grpcio",
+    "version": "1.85.1",
+    "url": "https://files.pythonhosted.org/packages/f0/03/f9e805772d4d01da2a1754a5f63c58601eacaf8f1e878729217188de7d16/grpcio-1.85.1.tar.gz",
+    "sha256": "5f530287d5de5f7f66089ead81de44f6787162944dab3922efa65dfdff108a1d"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "regex",
+    "version": "2026.9.29",
+    "url": "https://files.pythonhosted.org/packages/fc/f2/af1da9d3ceed77bfcdce40427d49ba0be94e4fe84245e3bfef68c10e75b6/regex-2026.9.29.tar.gz",
+    "sha256": "8b5fcc4771732191b2b7d1dd68d8f0353f47f8d90b6150f6dce58bf1112442cb"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "truststore",
+    "version": "0.10.5",
+    "url": "https://files.pythonhosted.org/packages/ee/9f/c5201d42a484c061e528825fc8e2d565f5abd50a4ced6fb7d29c4ec99b2b/truststore-0.10.5.tar.gz",
+    "sha256": "30d36967ccaded5cbb38d602c433f53600036c79d502f4533a49b60a03bbefcd"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "scipy",
+    "version": "1.18.1",
+    "url": "https://files.pythonhosted.org/packages/7e/74/66de6258867beb2ef08f35f9f2ac017a52cacd5081714d239ff1a442d458/scipy-1.18.1.tar.gz",
+    "sha256": "52c4b7422442aba924d03ad4019852b08a92e64ea187b933135687bfe2747307"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "grpcio-status",
+    "version": "1.85.1",
+    "url": "https://files.pythonhosted.org/packages/fe/16/0a161d0016f6e318ebf217780a91e007a67d9d244a06f79caeef689f5f02/grpcio_status-1.85.1.tar.gz",
+    "sha256": "3f6ba6090d794b7148b23f03355addd56bee2b78174a12784c4d9b4e28c8928e"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "openai",
+    "version": "3.46.0",
+    "url": "https://files.pythonhosted.org/packages/34/b6/23cddcb571d6eafe7b4bb58c7e0a068076121b7b001b776179994cca6a03/openai-3.46.0.tar.gz",
+    "sha256": "fb34cd8cab6809ad0aa8dc42493fa622aaa87c814fd8e67a6fb3fa1f1e5d952d"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "httpx2",
+    "version": "2.16.0",
+    "url": "https://files.pythonhosted.org/packages/43/73/5ca2cedf5e4e50423d1c258877865a6b62793633b561c58499f8aeb33b7e/httpx2-2.16.0.tar.gz",
+    "sha256": "0d54c98128e8f2ff7fbbde0fca8c359e5f032edeaaaac443cdb7f31f685bcd7f"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "watchfiles",
+    "version": "1.3.0",
+    "url": "https://files.pythonhosted.org/packages/b3/68/e6aa0b77d217b31f8f486ec0cdfe5e00e6e38dc0be657e7d85819b9faf0a/watchfiles-1.3.0.tar.gz",
+    "sha256": "99aee4a07847c06820765fd7b1b49ceac4f3f711ccb7d104655a33231de1c207"
+  },
+  {
+    "ecosystem": "pypi",
+    "name": "httpcore2",
+    "version": "2.16.0",
+    "url": "https://files.pythonhosted.org/packages/c0/61/afa9d6b7452f9eca73f73d45324eb0bb52f098fd5e6049bf6b8263be9b4e/httpcore2-2.16.0.tar.gz",
+    "sha256": "c72cd0413563b17e1cd8354677dff887466f8ec2551679759e93126534428643"
+  }
+]

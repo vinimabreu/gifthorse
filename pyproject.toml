@@ -1,0 +1,68 @@
+[build-system]
+# 1.27 is the first hatchling with the final PEP 639 license fields used below.
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "gifthorse"
+version = "0.1.0"
+description = "Static triage for a file, folder or archive from a stranger: inspect it without running it and answer BLOCK, REVIEW or NO FINDINGS with file, line and defanged indicators."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Vinicius Pereira" }]
+keywords = [
+    "security",
+    "malware triage",
+    "static analysis",
+    "archive inspection",
+    "supply chain",
+    "dropper",
+    "git hooks",
+    "freelance safety",
+    "attachment scanning",
+]
+classifiers = [
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Security",
+    "Typing :: Typed",
+]
+
+[project.urls]
+Homepage = "https://github.com/vinimabreu/gifthorse"
+Source = "https://github.com/vinimabreu/gifthorse"
+
+[project.scripts]
+gifthorse = "gifthorse.cli:main"
+
+[project.optional-dependencies]
+# Pinned to the versions the suite is checked with, so CI and a local run agree.
+dev = ["pytest==9.1.1", "ruff==0.16.8", "mypy==2.3.1"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/gifthorse"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "."]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+src = ["src", "tests", "examples", "tools", "benchmark"]
+extend-exclude = ["tests/fixtures"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM", "C4", "RET", "PIE"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+mypy_path = "src"
+files = ["src", "tests", "examples", "tools", "benchmark"]
+exclude = ["tests/fixtures"]

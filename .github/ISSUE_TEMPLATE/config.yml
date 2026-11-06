@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a bypass or false negative (private)
+    url: https://github.com/vinimabreu/gifthorse/security/advisories/new
+    about: A package the tool should flag but misses is a security issue. Report it privately.
