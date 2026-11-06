@@ -31,7 +31,7 @@ These are not hypotheticals. A public incident report traces a $6.34 billion the
 ## Quickstart
 
 ```text
-pipx install "git+https://github.com/vinimabreu/gifthorse@728c505ca9449c8a183e6a6c830b18e70af31c22"
+pipx install "git+https://github.com/vinimabreu/gifthorse@9be244fecb79eca25e296e6540db5777de6313fa"
 gifthorse ./suspicious-folder-or-archive.zip
 ```
 
@@ -154,7 +154,7 @@ jobs:
       - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
         with:
           python-version: "3.13"
-      - run: pip install "git+https://github.com/vinimabreu/gifthorse@728c505ca9449c8a183e6a6c830b18e70af31c22"
+      - run: pip install "git+https://github.com/vinimabreu/gifthorse@9be244fecb79eca25e296e6540db5777de6313fa"
       - run: gifthorse .
 ```
 
