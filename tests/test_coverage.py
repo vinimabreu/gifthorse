@@ -398,7 +398,8 @@ def test_strange_filesystem_objects_never_end_in_no_findings(tmp_path: Path) -> 
     cases: dict[str, Path] = {}
 
     fifo = _write(tmp_path / "fifo", {"scan1.png": b.PNG})
-    os.mkfifo(fifo / "README.md")
+    # POSIX only; the skipif above leaves Windows out, the ignore is for its type check.
+    os.mkfifo(fifo / "README.md")  # type: ignore[attr-defined,unused-ignore]
     cases["fifo"] = fifo
 
     locked_dir = _write(tmp_path / "locked_dir", {"scan1.png": b.PNG, "docs/notes.txt": dropper})
@@ -425,7 +426,10 @@ def test_strange_filesystem_objects_never_end_in_no_findings(tmp_path: Path) -> 
     sock_root = _short_dir()
     try:
         (sock_root / "scan1.png").write_bytes(b.PNG)
-        server = socket.socket(socket.AF_UNIX, socket.SOCK_STREAM)
+        server = socket.socket(
+            socket.AF_UNIX,  # type: ignore[attr-defined,unused-ignore]
+            socket.SOCK_STREAM,
+        )
         try:
             server.bind(str(sock_root / "notes.sock"))
             cases["socket"] = sock_root
@@ -434,7 +438,8 @@ def test_strange_filesystem_objects_never_end_in_no_findings(tmp_path: Path) -> 
             server = None  # type: ignore[assignment]
         os.chmod(locked_dir / "docs", 0)
         os.chmod(locked_file / "notes.txt", 0)
-        if os.geteuid() != 0:  # root reads mode-000 entries anyway
+        # Root reads mode-000 entries anyway.
+        if os.geteuid() != 0:  # type: ignore[attr-defined,unused-ignore]
             cases["folder with mode 000"] = locked_dir
             cases["file with mode 000"] = locked_file
         verdicts = {label: _scan_in_child(path) for label, path in cases.items()}
